@@ -1,5 +1,5 @@
 describe("LinkedList", () => {
-    var LinkedList = require('../../datastructures/linked-list-manual');
+    var LinkedList = require('./linked-list-manual');
 
     var linkedList;
 
