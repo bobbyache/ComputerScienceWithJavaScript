@@ -60,6 +60,33 @@ class LinkedList {
         this.length++;
         return this;
     }
+
+    shift() {
+        if (!this.head) return undefined;
+        let temp = this.head;
+        this.head = this.head.next;
+        temp.next = null;
+
+        this.length--;
+
+        if (this.length === 0) {
+            this.tail = null
+        }
+        
+        return temp;
+    }
+
+    get(index) {
+        if (index < 0 || index >= this.length) {
+            return undefined;
+        }
+        let current = this.head;
+
+        for (let i = 0; i < index; i++) {
+            current = current.next;
+        }
+        return current;
+    }
 }
 
 module.exports = Node;
