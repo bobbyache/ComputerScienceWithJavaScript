@@ -1,5 +1,4 @@
 // Source: https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/
-// The following problem only checks to see if a pair exists...
 
 const closest_pair_unoptimized = (array1, array2, value) => {
 
@@ -24,25 +23,26 @@ const closest_pair_unoptimized = (array1, array2, value) => {
 
 const closest_pair_optimized = (array1, array2, value) => {
     let diff = Number.MAX_VALUE;
-    let l =  0;
-    let r = array2.length - 1;
-    let l_result, r_result;
+    let leftIndex = 0;
+    let rightIndex = array2.length - 1;
+    let leftVal, rightVal;
 
-    while (l < array1.length && r >= 0) {
-        let temp = Math.abs(value - (array1[l] + array2[r]));
+    while (leftIndex < array1.length && rightIndex >= 0) {
+        let calcValue = array1[leftIndex] + array2[rightIndex];
+        let temp = Math.abs(value - calcValue);
         if (temp < diff) {
             diff = temp;
-            l_result = array1[l];
-            r_result = array2[r]
+            leftVal = array1[leftIndex];
+            rightVal = array2[rightIndex];
         }
 
-        if (array1[l] + array2[r] < value) {
-            l++;
+        if (calcValue < value) {
+            leftIndex++;
         } else {
-            r--;
+            rightIndex--;
         }
     }
-    return [l_result, r_result];
+    return [leftVal, rightVal];
 };
 
 
