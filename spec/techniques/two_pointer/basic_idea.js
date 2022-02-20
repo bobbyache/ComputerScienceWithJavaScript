@@ -2,8 +2,8 @@
 // The following problem only checks to see if a pair exists...
 
 const two_pointer_a_unoptimized = (nums, value) => {
-    for (var i = 0; i < N-1; i++) {
-        for (var j = 0; j < N; j++) {
+    for (var i = 0; i < nums.length-1; i++) {
+        for (var j = 0; j < nums.length; j++) {
             if (i == j) {
                 continue;
             }
@@ -24,12 +24,12 @@ const two_pointer_a_optimized = (nums, value) => {
     i = 0;
     j = nums.length - 1;
 
-    while (a < j) {
-        if (nums[a] + nums[j] === value) {
+    while (i < j) {
+        if (nums[i] + nums[j] === value) {
             return 1;
         }
-        else if (nums[a] + nums[j] < value) {
-            a++;
+        else if (nums[i] + nums[j] < value) {
+            i++;
         }
         else {
             j--;

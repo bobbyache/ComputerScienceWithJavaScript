@@ -1,4 +1,4 @@
-<!-- <!doctype html>
+<!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -18,8 +18,32 @@
         
         <script>
             $(function() {
-                
+                const closest_pair_optimized = (array1, array2, value) => {
+                    let i = 0;
+                    let j = array2.length - 1;
+                    let current = -1;
+                    let pair = [i, j]; 
+
+                    while (i < j) {
+                        let temp = Math.abs(value - (array1[i] + array2[j]));
+
+                        if (temp < current || current === -1) {
+                            current = temp;
+                            pair = [array1[i], array2[j]];
+                        }
+
+                        if (temp < current) {
+                            i++;
+                        }
+                        else if (temp >= current) {
+                            j--;
+                        }
+                    }
+
+                    return pair;
+                };
+                closest_pair_optimized([1, 4, 5, 7] , [10, 20, 30, 40], 32);
             });
         </script>
     </body>
-</html> -->
+</html>
