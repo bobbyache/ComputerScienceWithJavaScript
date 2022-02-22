@@ -27,25 +27,25 @@ class LinkedList {
     }
 
     pop() {
-        if (!this.head) {
-            return this;
-        } else if (this.head == this.tail) {
+        if (!this.head) return undefined;
+        
+        let temp = this.head;
+        let pre = this.head;
+        
+        while (temp.next) {
+            pre = temp;
+            temp = temp.next;
+        }
+        this.tail = pre;
+        this.tail.next = null;
+        this.length--;
+
+        if (this.length === 0) {
             this.head = null;
             this.tail = null;
-            this.length--;
-        } else {
-            let previousNode = null;
-            let currentNode = this.head;
-            while (currentNode.next) {
-                previousNode = currentNode;
-                currentNode = currentNode.next;
-            }
-            this.tail = previousNode;
-            previousNode.next = null;
-
-            this.length--;
         }
-        return this;
+        
+        return temp;
     }
 
     unshift(value) {

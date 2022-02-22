@@ -15,16 +15,15 @@ const twoSum_2 = (nums, target) => {
     const numsMap = {};
 
     for (let p = 0; p < nums.length; p++) {
-        const currentMapVal = numsMap[nums[p]];
+        const foundAtIndex = numsMap[nums[p]];
 
-        if (currentMapVal >= 0) {
-            return [currentMapVal, p];
+        if (foundAtIndex >= 0) {
+            return [foundAtIndex, p];
         } else {
             const numberToFind = target - nums[p];
             numsMap[numberToFind] = p;
         }
     }
-
     return null;
 };
 
