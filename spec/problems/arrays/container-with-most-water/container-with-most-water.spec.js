@@ -4,6 +4,7 @@ describe("TwoSum", () => {
     beforeEach(() => {});
 
     describe("Unoptimized", () => {
+        // Best test case
         it(`should return 7 * 4 = 28 when given [7, 1, 2, 3, 9]`, () => {
             expect(unOptimized([7, 1, 2, 3, 9])).toEqual(28);
         })
@@ -16,6 +17,7 @@ describe("TwoSum", () => {
             expect(unOptimized([6, 9, 3, 4, 5, 8])).toEqual(32);
          })
      
+        // Edge cases
          it(`should return 0 when given []`, () => {
             expect(unOptimized([])).toEqual(0);
          })
@@ -26,6 +28,7 @@ describe("TwoSum", () => {
     });
 
     describe("Optimized", () => {
+        // Best test case
         it(`should return 7 * 4 = 28 when given [7, 1, 2, 3, 9]`, () => {
             expect(optimized([7, 1, 2, 3, 9])).toEqual(28);
         })
@@ -38,6 +41,7 @@ describe("TwoSum", () => {
             expect(optimized([6, 9, 3, 4, 5, 8])).toEqual(32);
          })
      
+         // Edge cases
          it(`should return 0 when given []`, () => {
             expect(optimized([])).toEqual(0);
          })

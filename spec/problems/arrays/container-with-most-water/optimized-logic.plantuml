@@ -1,0 +1,31 @@
+@startuml
+
+title Container with most water
+
+start
+    :Initialize max area to 0;
+    :Move left pointer to start of array\nMove right pointer to end of array;
+
+    while (is left pointer < right pointer) is (yes)
+        :Calculate area\n(area = lowest side - width);
+        if (area > max area?) then (yes)
+            :max area = area;
+        endif
+
+        if (left value (height) <= right value)
+            :Move left pointer inwards;
+        else
+            :Move right pointer inwards;
+        endif
+        note right
+            Outcome of the area is impacted by the 
+            lesser of the two values.
+            ----
+            Always move the smaller value inwards 
+            to see if that gets us a larger area...
+        end note
+    end while
+    ->no (left pointer == right pointer);
+    :Return max area;
+end
+@enduml

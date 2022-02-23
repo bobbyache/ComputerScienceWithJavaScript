@@ -1,0 +1,12 @@
+@startmindmap
+* Arrays
+** Can I store values\nto improve time?
+*** Hash Map
+*** Hint: Logic between loops
+** Can I shift pointers?
+*** Array is sorted
+*** Not sorted but distances\nbetween indeces matter?
+**** Does one side or\nboth sides matter?
+-- ...
+
+@endmindmap
