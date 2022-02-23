@@ -1,0 +1,50 @@
+@startuml
+
+title Find the closest pair from two sorted arrays
+
+skinparam defaultTextAlignment center
+
+start
+    :Move left pointer to start of Array 1;
+    :Move right pointer to end of Array 2;
+
+    while (left pointer NOT at end of Array 1 && right pointer NOT at beginning of Array 2) is (yes)
+        :Comparison Number = left number + right number;
+        :Difference = Absolute value of Given Value - Comparison Number;
+        note right
+            Does this pair of numbers get us 
+            closer to the given value?
+            ----
+            By adding them and then deducting them from the given 
+            value use simple subtraction and use the absolute value 
+            to find the current difference
+        end note
+
+        if (Is the difference less than the current stored difference?) then (yes)
+            :Store the Difference;
+            :Store the Indeces;
+        endif
+
+        if (Comparison Number < given value)
+            :Move left pointer inwards;
+        else
+            :Move right pointer inwards;
+        endif
+
+        note right
+            Both arrays are sorted. So if the calculation results in a smaller number than 
+            the given value then pointer 1 needs to be incremented to 
+            get closer to the solution. Similarly, if the number is greater than the 
+            given value then pointer 2 needs to move inward.
+            ----
+            It's important that a pointer moves inward no matter what... so the **else**
+            has meaning so that a pointer will move inwards for every iteration.
+            ----
+            Once the either the leftIndex or rightIndex reaches the end of their
+            respective iterations, the search is complete (see edge cases in tests).
+        end note
+    end while
+    ->no (left pointer == right pointer);
+    :Return values that sum to the closest number to the given value;
+end
+@enduml
