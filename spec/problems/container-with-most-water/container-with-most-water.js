@@ -1,3 +1,13 @@
+/* *************************************************************************************************
+Problem Description
+----------------------------------------------------------------------------------------------------
+You are given an array of positive Integers where each integer represents the height of a vertical
+line on a chart. Find two lines which together with the x-axis forms a container that would hold
+the greatest amount of water.
+
+Return the area of water it would hold.
+************************************************************************************************* */
+
 const mostWater_1 = (chartBars) => {
     let maxArea = 0;
     for (a = 0; a < chartBars.length - 1; a++) {
