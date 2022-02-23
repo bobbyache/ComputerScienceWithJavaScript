@@ -18,10 +18,13 @@ const calculateClosestPair_1 = (nums, value) => {
 };
 
 const calculateClosestPair_2 = (nums, value) => {
+    
+    if (nums.length <= 1) return undefined;
+
     let diff = Number.MAX_VALUE;
     let leftIndex = 0;
     let rightIndex = nums.length - 1;
-    let leftVal, rightVal;
+    let leftVal, rightVal = 0;
 
     while (leftIndex < rightIndex) {
         let calcValue = nums[leftIndex] + nums[rightIndex];
@@ -39,6 +42,8 @@ const calculateClosestPair_2 = (nums, value) => {
             rightIndex--;
         }
     }
+
+    return [leftVal, rightVal];
 };
 
 module.exports = {
