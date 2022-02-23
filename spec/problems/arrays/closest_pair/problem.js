@@ -5,7 +5,7 @@ const calculateClosestPair_1 = (nums, value) => {
     let diff = Number.MAX_VALUE;
 
     for (let i = 0; i < nums.length;  i++) {
-        for (let j = 0; j < nums.length; j++) {
+        for (let j = i + 1; j < nums.length; j++) {
             temp = Math.abs((nums[i] + nums[j]) - value);
             if (temp < diff) {
                 diff = temp;
@@ -20,25 +20,25 @@ const calculateClosestPair_1 = (nums, value) => {
 const calculateClosestPair_2 = (nums, value) => {
     let diff = Number.MAX_VALUE;
     let leftIndex = 0;
-    let rightIndex = nums.length -1;
+    let rightIndex = nums.length - 1;
     let leftVal, rightVal;
-    
-    while (leftVal < rightVal) {
+
+    while (leftIndex < rightIndex) {
         let calcValue = nums[leftIndex] + nums[rightIndex];
         let temp = Math.abs(calcValue - value);
+
         if (temp < diff) {
             diff = temp;
             leftVal = nums[leftIndex];
             rightVal = nums[rightIndex];
         }
+
         if (calcValue < value) {
             leftIndex++;
         } else {
             rightIndex--;
         }
     }
-
-    return [leftVal, rightVal];
 };
 
 module.exports = {

@@ -57,5 +57,32 @@ describe("Problem", () => {
 - [Looking to debug Karma? Try This](https://www.youtube.com/watch?v=lgMuiFKq9M4)
 - [Mark Heath's Github JavaScript Advent Stuff](https://github.com/markheath/advent-of-code-js) and here is his [YouTube introduction](https://www.youtube.com/watch?v=mC2LRZ23AFU)... here is [2018 C# Stuff](https://github.com/markheath/advent-of-code-2018) and here is [2020 in C#](https://github.com/markheath/AdventOfCode2020) and [2021 in C#](https://github.com/markheath/AdventOfCode2021)
 
+### Reusuable PlantUML
+
+#### for loop
+```
+@startuml
+
+title Given a sorted array find the pair closes to a number
+start
+    :Move Pointer 1 to index 0;
+    
+    while (End of List?) is (false)
+
+        :Move Pointer 2 to\nposition after Pointer 1;
+        
+        while (End of List?) is (false)
+            :Calculate formula;
+            :Move Pointer 2 forward;
+        endwhile
+
+        :Move Pointer 1 forward;
+    endwhile
+
+    :Return calculated value;
+end
+@enduml
+```
+
 
 

@@ -1,0 +1,33 @@
+@startuml
+
+title Given a sorted array find the pair closest to a number
+start
+    :Move Pointer 1 to index 0;
+    
+    while (End of List?) is (false)
+
+        :Move Pointer 2 to\nposition after Pointer 1;
+        
+        while (End of List?) is (false)
+            :Add the two numbers together and deduct them from\nthe given value to find the current difference;
+            note right
+                Does this pair of numbers get us 
+                closer to the given value?
+                ----
+                By adding them and then deducting them from the given 
+                value use simple subtraction and use the absolute value 
+                to find the current difference
+            end note
+            if (\nIs the difference less than the currently stored  minimum?\n) then (yes)
+                :Store the new minimum;
+                :Store the current indeces;
+            endif
+            :Move Pointer 2 forward;
+        endwhile
+
+        :Move Pointer 1 forward;
+    endwhile
+
+    :Return stored indeces values;
+end
+@enduml

@@ -1,0 +1,40 @@
+@startuml
+
+title Given a sorted array find the pair closest to a number
+
+start
+    :Move left pointer to start;
+    :Move right pointer to end;
+
+    while (is left pointer < right pointer) is (yes)
+        :Comparison Number = left number + right number;
+        :Difference = Absolute value of Given Value - Comparison Number;
+        note right
+            Does this pair of numbers get us 
+            closer to the given value?
+            ----
+            By adding them and then deducting them from the given 
+            value use simple subtraction and use the absolute value 
+            to find the current difference
+        end note
+        if (Is the difference less than the current stored difference?) then (yes)
+            :Store the Difference;
+            :Store the Indeces;
+        endif
+
+        if (left value (sum of the numbers) < given value)
+            :Move left pointer inwards;
+        else
+            :Move right pointer inwards;
+        endif
+        note right
+            The array is sorted. So if the calculation results in a smaller number than 
+            the given value, then the left-most pointer needs to be incremented to 
+            get closer to the solution. Similarly, if the number is greater than the 
+            given value then the right-most pointer needs to move inward.
+        end note
+    end while
+    ->no (left pointer == right pointer);
+    :Return values that sum to the closest number to the given value;
+end
+@enduml
