@@ -37,8 +37,20 @@ describe("Find the closest pair from two sorted arrays", () => {
             expect(optimized([50] , [6, 7, 8, 9, 10, 11, 17, 19, 20], 30)).toEqual([50, 6]);
         })
 
-        fit(`should return ? when given ? and ? with a target value of ?`, () => {
-            expect(optimized([24, 26] , [6, 7, 8, 9, 10, 11, 17, 19, 20], 100)).toEqual([50, 26]);
+        // Edge Case: Only two iterations occur here. When the left pointer gets to the end of the array
+        // it will no longer be possible to calculate a smaller difference by looking at decrementing
+        // the right pointer because the difference will only get greater by decrementing the right pointer.
+        // Hence the while check: if any pointer reaches the end of its traversing, a smaller diff can no longer be attained.
+        it(`should return [26, 20] when given [24, 26] and [6, 7, 8, 9, 10, 11, 17, 19, 20] with a target value of 100`, () => {
+            expect(optimized([24, 26] , [6, 7, 8, 9, 10, 11, 17, 19, 20], 100)).toEqual([26, 20]);
+        })
+
+        // Edge Case: Only two iterations occur here. When the right pointer gets to the end of the array
+        // it will no longer be possible to calculate a smaller difference by looking at incrementing
+        // the left pointer because the difference will only get greater by incrementing the left pointer.
+        // Hence the while check: if any pointer reaches the end of its traversing, a smaller diff can no longer be attained.
+        it(`should return [5, 111] when given [5, 6, 7, 8, 9, 10, 11, 12] and  [111, 122] with a target value of 2`, () => {
+            expect(optimized([5, 6, 7, 8, 9, 10, 11, 12] , [111, 122], 2)).toEqual([5, 111]);
         })
     });
 });

@@ -24,36 +24,17 @@ const closest_pair_unoptimized = (array1, array2, value) => {
     return pair;
 };
 
-/*
-The idea is to start from left side of one array and right side of another array,
-and use the following algorithm:
-
-    1) Initialize a variable diff as infinite (Diff is used to store the 
-    difference between pair and value).  We need to find the minimum diff.
-    2) Initialize two index variables l and r in the given sorted array.
-        (a) Initialize first to the leftmost index in ar1:  l = 0
-        (b) Initialize second  the rightmost index in ar2:  r = n-1
-    3) Loop while  l = 0
-        (a) If  abs(ar1[l] + ar2[r] - sum) < diff  then 
-            update diff and result 
-        (b) If (ar1[l] + ar2[r] <  sum )  then l++
-        (c) Else r--    
-    4) Print the result. 
-*/
 const closest_pair_optimized = (array1, array2, value) => {
     let diff = Number.MAX_VALUE;
     let leftIndex = 0; // array1
     let rightIndex = array2.length - 1;
     let leftVal, rightVal;
 
-    console.log('---');
-
     while (leftIndex < array1.length && rightIndex >= 0) {
-        
-        console.log(leftIndex, rightIndex);
-
         let calcValue = array1[leftIndex] + array2[rightIndex];
         let temp = Math.abs(value - calcValue);
+
+        // console.log(`(lptr[${leftIndex}]=${array1[leftIndex]}, rptr[${rightIndex}]=${array2[rightIndex]}) - Diff = ${value} - ${calcValue} = ${temp} - calcValue is ${calcValue < value ? "<" : ">="} than value`);
 
         if (temp < diff) {
             diff = temp;

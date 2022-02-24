@@ -32,16 +32,17 @@ start
         endif
 
         note right
-            Both arrays are sorted. So if the calculation results in a smaller number than 
-            the given value then pointer 1 needs to be incremented to 
-            get closer to the solution. Similarly, if the number is greater than the 
-            given value then pointer 2 needs to move inward.
+            Both arrays are sorted. So if the calculation results in a smaller comparison 
+            number than the input value then the left pointer is incremented to get closer to 
+            the solution. Similarly, if the comparison number is greater than the  given 
+            value then the right pointer is decremented.
             ----
             It's important that a pointer moves inward no matter what... so the **else**
             has meaning so that a pointer will move inwards for every iteration.
             ----
-            Once the either the leftIndex or rightIndex reaches the end of their
-            respective iterations, the search is complete (see edge cases in tests).
+            Once the either the leftIndex or rightIndex reaches the end of their respective 
+            iterations, the search is complete as a smaller difference will no longer exist 
+            between the calculated value and the input value.
         end note
     end while
     ->no (left pointer == right pointer);
