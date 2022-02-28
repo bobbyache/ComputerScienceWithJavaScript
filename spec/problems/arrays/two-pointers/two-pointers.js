@@ -36,10 +36,10 @@ in the array. There can be negative numbers in the array, but it will always be 
 const countUniqueValues = (arr) => {
     let basePtr = 0;
     let scoutPtr = 0;
-    let counter = arr.length > 0 ? 1 : 0;
+    let counter = 0;
 
-    while(basePtr < arr.length -1) {
-        if (arr[basePtr] === arr[scoutPtr]) {
+    while(basePtr < arr.length) {
+        if (arr[basePtr] == arr[scoutPtr]) {
             scoutPtr++;
         } else {
             counter++;
