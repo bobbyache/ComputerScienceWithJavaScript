@@ -10,7 +10,6 @@ Depending on a certain condition, the window either increases or closes (and a n
 
 Very useful for keeping track of a subset of data in larger set of data such as an 
     array/string etc.
-
                                     [***---]
                                     [-***--]
                                     [--***-]
@@ -38,7 +37,7 @@ const maxSubArraySum_naive = (arr, num) => {
         if (temp > max) {
             max = temp;
         }
-        console.log(temp, max);
+        // console.log(temp, max);
     }
     return max;
 };

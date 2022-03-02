@@ -1,4 +1,7 @@
-const { maxSubArraySum_naive, maxSubArraySum_optimized } = require("./sliding-window.js");
+const { 
+    maxSubArraySum_naive, 
+    maxSubArraySum_optimized 
+} = require("./sliding-window.js");
 
 describe("maxSubArraySum", () => {
     it(`should be realized`, () => {
@@ -16,7 +19,6 @@ describe("maxSubArraySum", () => {
     it(`should be realized`, () => {
         expect(maxSubArraySum_naive([], 4)).toEqual(null);
     })
-
 });
 
 describe("maxSubArraySum", () => {
@@ -35,7 +37,6 @@ describe("maxSubArraySum", () => {
     it(`should be realized`, () => {
         expect(maxSubArraySum_optimized([], 4)).toEqual(null);
     })
-
 });
 
 
