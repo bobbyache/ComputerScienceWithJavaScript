@@ -1,0 +1,37 @@
+@startuml
+skinparam defaultTextAlignment center
+!pragma useVerticalIf on
+
+|Break the problem apart|
+start
+    repeat
+        : Read twice and restate the problem;
+        : Draw the problem;
+        : Identify inputs, variables, and outputs;
+        : identify edge cases;
+    repeat while (something not clear) is (yes)
+
+|Explore examples|
+
+    : Three simple examples;
+    : Add edge cases;
+    : Convert to test cases;
+
+|Prototype the algorithm|
+    repeat
+        repeat
+            : Write out steps as comments;
+            : Convert steps to pseudocode;
+            : Draw table and simulate execution;
+        repeat while (next test case)
+|Self Critique|
+    : Calculate time space complexity;
+    : Can the result be derived more efficiently?;
+    repeat while (not optimized)
+
+|Code|
+    : Code the solution;
+    : Refactor the solution;
+    : Check syntax and spelling;
+stop
+@enduml

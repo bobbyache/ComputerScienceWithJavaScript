@@ -1,0 +1,32 @@
+@startuml
+title Know the Problem
+skinparam defaultTextAlignment center
+!pragma useVerticalIf on
+
+start
+    : Read twice and restate the problem;
+    note
+        Read it twice and try and rephrase it in your own words.
+    end note
+    : Break the problem apart;
+	note
+		Break into phrases and identify inputs, outputs, and properties
+		Compile a list of unknowns to ask questions
+    end note
+    repeat
+        if (will it help to\nvisualize the problem?) then (yes)
+            : draw the problem;
+            : understand the visualization;
+        else if (will it help to\nbreak the problem down?) then (yes)
+            : Find the central formula;
+            : Consider table of running totals;
+        else if (inputs can be determined by outputs) then (no)
+            : Ask constraint questions;
+        endif
+    repeat while (something not clear) is (yes)
+
+    repeat
+	    : Look for and document: constraints, variables, and pre-conditions;
+    repeat while (Is there a special case?) is (yes)
+stop
+@enduml

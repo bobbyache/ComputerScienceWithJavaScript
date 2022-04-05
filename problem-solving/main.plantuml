@@ -1,0 +1,50 @@
+@startuml
+start
+    : Know the problem;
+	note
+		Read the problem completely (twice)
+        Can I restate the problem in my own words?
+		Break into phrases and identify inputs, outputs, and properties
+		Compile a list of unknowns to ask questions
+		Something not clear? Can the outputs be determined by the inputs?
+		Draw the problem
+		Keep asking... Is there a special case?
+		Look for and document: constraints, variables, and pre-conditions
+	end note
+	
+    :Write some test cases;
+	note
+		Keep datasets as small (but large enough)
+		Should have at least 3 sets of data
+		Start with best case
+		Remember edge cases (no solution, malformed)
+	end note
+	
+    :Figure out a solution without code;
+	note
+		Brute force solution (a solution is better than no solution)
+		Break into phrases and identify inputs, outputs, and properties
+		Compile a list of unknowns to ask questions
+		Draw the problem
+	end note
+	
+    :Write out the code;
+	note
+		Remember to check syntax and spelling
+	end note
+	
+    :Test with your test cases;
+	note
+		Walkthrough your algorithm using all test cases.
+	end note
+	
+    :Analyze space time complexity;
+	note
+		Explain space and time complexity weakness
+	end note
+	
+    :Optimize the solution;
+	
+    :Recalculate space time complexity;
+stop
+@enduml
