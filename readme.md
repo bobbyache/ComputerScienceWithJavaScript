@@ -1,4 +1,12 @@
 
+### To Do
+- [ ] [Read and understand](http://karma-runner.github.io/6.3/intro/how-it-works.html) how Karma might aid in debugging your tests (without Angular).
+  - [ ] Also see [Running and Debugging Tests in Karma](https://www.webagesolutions.com/blog/running-and-debugging-tests-in-karma)
+
+Debugging tests with Mocha
+- [ ] https://mochajs.org/
+- [ ] See [Debugging Mocha Tests in  VS Code](https://dev.to/wakeupmh/debugging-mocha-tests-in-vscode-468a)
+
 ### Run your Tests
 
 `npx jasmine` or `npm test` as this has been configured in your `package.json` file.
@@ -83,6 +91,4 @@ start
 end
 @enduml
 ```
-
-
 
