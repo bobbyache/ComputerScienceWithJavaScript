@@ -6,7 +6,7 @@ describe("Find all triplets with zero sum", () => {
     beforeEach(() => {});
     
     describe("Frequency Counter Tests", () => {
-        it(`[1, 2, 3], [4, 1, 9] should return true`, () => {
+        fit(`[1, 2, 3], [4, 1, 9] should return true`, () => {
             expect(unOptimized([1, 2, 3], [4, 1, 9])).toEqual(true);
             expect(optimized([1, 2, 3], [4, 1, 9])).toEqual(true);
         })

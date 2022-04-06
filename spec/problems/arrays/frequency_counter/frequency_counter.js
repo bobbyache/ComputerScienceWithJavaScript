@@ -1,28 +1,36 @@
 
-const frequencyCounterPattern_1 = (array1, array2) => {
-    // This was your first naive attempt. Note it is different to his....
-    let counter = 0;
-    
+/*
+    This pattern uses objects or sets of objects to collect values/frequencies of values.
+    This can often be used to avoid the need for nested loops or O(N^2) operations with arrays/strings.
+*/
+
+/*
+    Problem:
+
+    Write a function which accepts two arrays. The function should return true if every value
+    in the array has its corresponding value squared in the second array.
+
+    The frequency of values must be the same.
+    - Means that the array lengths must be the same as can't have two in the array2 corresponding to only 1 in arrary1
+*/
+
+// his naive solution
+function same_1(array1, array2) {
     if (array1.length !== array2.length) {
         return false;
     }
-    
+
     for (let i = 0; i < array1.length; i++) {
-        let number_to_find = array1[i] ** 2;
-        
-        for (let j = 0; j < array2.length; j++) {
-            if (array2[j] === number_to_find) {
-                counter += 1;
-            }
+        let correctIndex = array2.indexOf(array1[i] ** 2);
+
+        if (correctIndex === -1) {
+            return false;
         }
+        array2.splice(correctIndex, 1); // mutates the array
+
     }
-    
-    if (counter % array1.length === 0) {
-        return true;
-    }
-    
-    return false;
-};
+    return  true;
+}
 
 // The Frequency Counter Pattern
 // Source: https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/9816152#overview
@@ -34,7 +42,7 @@ Allowss one to quickly compare that breakdown to how another object looks that w
 // These arrays have to be the same length  so this will be (O(3N) which resolves to O(N))
 // Much better than O(N^2) for the above example.
 
-const frequencyCounterPattern_2 = (arr1, arr2) => {
+const same_2 = (arr1, arr2) => {
     if (arr1.length !== arr2.length) {
         return false;
     }
@@ -71,6 +79,8 @@ const frequencyCounterPattern_2 = (arr1, arr2) => {
 };
 
 /*
+    Problem:
+
     Given two strings, write a function to determine if the second string is an anagram of the
     first. An anagram is a word, phrase, or name formed by rearranging the letters of another,
     such as cinema, formed from iceman.
@@ -133,8 +143,8 @@ const validAnagram_Theirs = (first, second) => {
 
 
 module.exports = {
-    unOptimized: frequencyCounterPattern_1,
-    optimized: frequencyCounterPattern_2,
+    unOptimized: same_1,
+    optimized: same_2,
     validAnagram1: validAnagram_Yours,
     validAnagram2: validAnagram_Theirs
 };
