@@ -1,5 +1,7 @@
 
 /*
+    ** For frequency counting or looking up to compare between two arrays.
+    ---
     This pattern uses objects or sets of objects to collect values/frequencies of values.
     This can often be used to avoid the need for nested loops or O(N^2) operations with arrays/strings.
 */
@@ -84,6 +86,11 @@ const same_2 = (arr1, arr2) => {
     Given two strings, write a function to determine if the second string is an anagram of the
     first. An anagram is a word, phrase, or name formed by rearranging the letters of another,
     such as cinema, formed from iceman.
+
+    Ask Questions (don't assume):
+    - All inputs are simple words
+    - Not numbers
+    - all lower case
 */
 
 // Here is your solution...
@@ -115,6 +122,16 @@ const validAnagram_Yours = (text1, text2) => {
     return true;
 };
 
+/*
+    - Create a lookup object which is a breakdown of the first string
+        - character and number of times it exists.
+        - { t: 5, e: 2, x: 1, w: 1, i: 2, s: 1, m: 1 }
+    
+    - Run through the second and subtract 1 from the lookup object when its found
+        - If can't find or letter is zero = NOT an anagram.
+*/
+
+
 const validAnagram_Theirs = (first, second) => {
     if (first.length !== second.length) {
         return false;
@@ -127,6 +144,8 @@ const validAnagram_Theirs = (first, second) => {
         // if letter exists, increment, otherwise set to 1
         lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
     }
+
+    // console.log(lookup);
 
     for (let i = 0; i < second.length; i++) {
         let letter = second[i];
@@ -141,10 +160,40 @@ const validAnagram_Theirs = (first, second) => {
     return true;
 };
 
+const validAnagram_neater = (first, second) => {
+    if (first.length !== second.length) {
+        return false;
+    }
+
+    var lookup = {};
+
+    for (let char of first) {
+        lookup[char] = (lookup[char] || 0) + 1;
+    }
+
+    for (let char of second) {
+        if (!lookup[char]) {
+            return false;
+        } else {
+            lookup[char] -= 1;
+        }
+    }
+
+    return true;
+};
+
+/*
+    Tons of anagram solvers online:
+    ---
+    https://www.thewordfinder.com/anagram-solver/
+    https://wordfinders.com/
+    https://en.wikipedia.org/wiki/Anagram
+*/
 
 module.exports = {
-    unOptimized: same_1,
-    optimized: same_2,
+    same1: same_1,
+    same2: same_2,
     validAnagram1: validAnagram_Yours,
-    validAnagram2: validAnagram_Theirs
+    validAnagram2: validAnagram_Theirs,
+    validAnagram3: validAnagram_neater
 };
