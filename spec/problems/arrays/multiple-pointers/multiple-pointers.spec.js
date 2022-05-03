@@ -1,4 +1,4 @@
-const { sumZero, countUniqueValues } = require("./two-pointers.js");
+const { sumZero, countUniqueValues } = require("./multiple-pointers.js");
 
 describe("first pair where the sum is 0", () => {
     it(`should be realized`, () => {
