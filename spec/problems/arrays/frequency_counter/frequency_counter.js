@@ -13,7 +13,7 @@
     in the array has its corresponding value squared in the second array.
 
     The frequency of values must be the same.
-    - Means that the array lengths must be the same as can't have two in the array2 corresponding to only 1 in arrary1
+    - Means that the array lengths must be the same as can't have two in the array2 corresponding to only 1 in array1
 */
 
 // his naive solution
@@ -38,10 +38,10 @@ function same_1(array1, array2) {
 // Source: https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/9816152#overview
 
 /*
-The idea is to use an object to construct a profile of an array or string.
-Allowss one to quickly compare that breakdown to how another object looks that was constructed from an array or string.
+The idea is to use an object/dictionary/hashmap to construct a profile of an array or string.
+Allows one to quickly compare that breakdown to how another object looks that was constructed from an array or string.
 */
-// These arrays have to be the same length  so this will be (O(3N) which resolves to O(N))
+// These arrays have to be the same length so this will be (O(3N) which resolves to O(N))
 // Much better than O(N^2) for the above example.
 
 const same_2 = (arr1, arr2) => {
