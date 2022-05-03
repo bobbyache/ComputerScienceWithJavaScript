@@ -52,7 +52,7 @@ const countUniqueValues = (arr) => {
 };
 
 // https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/11183948#overview
-// Don't like his solution above because he's writing into the input array.
+// Don't like this solution because he's writing into the input array.
 /*
     function countUniqueValues(arr) {
         var i = 0;
