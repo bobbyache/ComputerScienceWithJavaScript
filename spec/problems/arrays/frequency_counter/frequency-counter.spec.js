@@ -1,4 +1,4 @@
-const { same1, same2, validAnagram1, validAnagram2, validAnagram3 } = require("./frequency_counter.js");
+const { same1, same2, validAnagram1, validAnagram2, validAnagram3 } = require("./frequency-counter.js");
 
 describe("Find all triplets with zero sum", () => {
 
