@@ -9,7 +9,9 @@ Debugging tests with Mocha
 
 ### Run your Tests
 
-`npx jasmine` or `npm test` as this has been configured in your `package.json` file.
+- `npx jasmine` or `npm test` as this has been configured in your `package.json` file.
+- To target specific tests use `fdescribe` or `fit`.
+
 
 ### Starter Snippets
 
