@@ -1,0 +1,42 @@
+
+@title => "Can Sum (with Memoization)";
+@name => "can sum";
+
+@naiveFuncName => "naiveCanSum";
+@optimizedFuncName => "memoizedCanSum";
+
+@numArgs => "2";
+
+@param1 => "targetSum";
+@param2 => "numbers";
+@param3 => "memo = {}";
+
+@arg1 => "300";
+@arg2 => "[7,14]";
+@arg3 => "memo";
+
+@expectedOutput => "true";
+
+// Here are the functions
+
+@fileName => replace(@name, " ", "-");
+
+@paramList =>
+    if @numArgs == "1" then
+        @param1
+    else if @numArgs == "2" then
+        @param1 + ", " + @param2
+    else
+        @param1 + ", " + @param2 + ", " + @param3
+;
+
+
+@argList =>
+    if @numArgs == "1" then
+        @arg1
+    else if @numArgs == "2" then
+        @arg1 + ", " + @arg2
+    else
+        @arg1 + ", " + @arg2 + ", " + @arg3
+;
+

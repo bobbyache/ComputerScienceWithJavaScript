@@ -1,0 +1,24 @@
+// @{fileName}.spec.js
+
+/* *************************************************************************************************
+Problem:            @{title}
+Main Formula:       
+Approach:           
+************************************************************************************************* */
+
+describe("@{name}", () => {
+    const { @{naiveFuncName}, @{optimizedFuncName} } = require("./@{fileName}.js");
+    beforeEach(() => {});
+
+    describe("@{naiveFuncName} when called", () => {
+        it(`should return @{expectedOutput} when given @{argList} `, () => {
+            expect(@{naiveFuncName}(@{argList})).toEqual(@{expectedOutput});
+        });
+    });
+
+    describe("@{optimizedFuncName} when called", () => {
+        it(`should return @{expectedOutput} when given @{argList} `, () => {
+            expect(@{optimizedFuncName}(@{argList})).toEqual(@{expectedOutput});
+        });
+    });
+});

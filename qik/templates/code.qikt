@@ -1,0 +1,21 @@
+
+// @{fileName}.js
+
+/* *************************************************************************************************
+Problem:            @{title}
+Main Formula:       
+Approach:           
+************************************************************************************************* */
+
+const @{naiveFuncName} = (@{paramList}) => {
+    return null;
+};
+
+const @{optimizedFuncName} = (@{paramList}) => {
+    return null;
+};
+
+module.exports = {
+    @{naiveFuncName}: @{naiveFuncName},
+    @{optimizedFuncName}: @{optimizedFuncName},
+};

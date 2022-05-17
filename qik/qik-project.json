@@ -1,0 +1,31 @@
+{
+    "scriptPath": "script.qik",
+    "fragments": [
+        {
+            "id": "code",
+            "path": "templates\\code.qikt"
+        },
+        {
+            "id": "tests",
+            "path": "templates\\tests.qikt"
+        },
+        {
+            "id": "notes",
+            "path": "templates\\notes.qikt"
+        }
+    ],
+    "documents": [
+        {
+            "outputFilePaths": ["generated\\code.js"],
+            "structure": ["code"]
+        },
+        {
+            "outputFilePaths": ["generated\\tests.spec.js"],
+            "structure": ["tests"]
+        },
+        {
+            "outputFilePaths": ["generated\\notes.md"],
+            "structure": ["notes"]
+        }
+    ]
+}
