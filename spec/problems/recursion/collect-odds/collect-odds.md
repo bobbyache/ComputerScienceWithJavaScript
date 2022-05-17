@@ -1,7 +1,8 @@
 # Collect Odds (Helper methods vs. Pure Recursion)
 
 - Source(s):
-    - [Hyperlink](https://)
+    - [Helper methods and pure recursion 1](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/10046464#overview)
+    - [Helper methods and pure recursion 2](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/10793654#overview)
 
 - Difficulty: 
 - Related Topics:

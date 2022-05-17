@@ -1,22 +1,22 @@
 
-// can-sum.js
+// collect-odds.js
 
 /* *************************************************************************************************
-Problem:            Can Sum (with Memoization)
+Problem:            Collect Odds (Helper methods vs. Pure Recursion)
 Main Formula:       
 Approach:           
 ************************************************************************************************* */
 
-const naiveCanSum = (targetSum, numbers) => {
+const collectOdds1 = (arr) => {
     return null;
 };
 
-const memoizedCanSum = (targetSum, numbers) => {
+const collectOdds2 = (arr) => {
     return null;
 };
 
 module.exports = {
-    naiveCanSum: naiveCanSum,
-    memoizedCanSum: memoizedCanSum,
+    collectOdds1: collectOdds1,
+    collectOdds2: collectOdds2,
 };
 

@@ -47,3 +47,18 @@ function factorialRecursive(num) {
 
 factorialRecursive(3);
 ```
+
+### Add numbers to an array
+```javascript
+function sum(arr, pos) {
+    if (arr.length == 1) {
+        return arr[0];
+    } else {
+        const number = arr[0];
+        arr.shift();
+        return number + sum(arr);
+    }
+}
+
+console.log(sum([1, 2, 3, 4]));
+```
