@@ -1,5 +1,9 @@
 // Source: https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/
 
+// Not sure where you first got this from, but the hyperlink above points to a
+// different link. The problem is slightly different and harder because you have to
+// find all triplets summing to zero in the array and pass them back.
+
 const findTriplets_1 = (nums) => {
     for (let i = 0; i < nums.length; i++) {
         for (let j = i + 1; j < nums.length; j++) {

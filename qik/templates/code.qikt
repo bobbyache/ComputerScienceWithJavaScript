@@ -8,10 +8,12 @@ Approach:
 ************************************************************************************************* */
 
 const @{naiveFuncName} = (@{paramList}) => {
+    // debugger
     return null;
 };
 
 const @{optimizedFuncName} = (@{paramList}) => {
+    // debugger
     return null;
 };
 
@@ -19,3 +21,10 @@ module.exports = {
     @{naiveFuncName}: @{naiveFuncName},
     @{optimizedFuncName}: @{optimizedFuncName},
 };
+
+/* *************************************************************************************************
+Use debugger
+    node inspect @{fileName}.js
+************************************************************************************************* */
+// @{naiveFuncName}(@{argList})
+// @{optimizedFuncName}(@{argList})

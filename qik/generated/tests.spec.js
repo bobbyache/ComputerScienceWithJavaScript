@@ -1,24 +1,24 @@
-// collect-odds.spec.js
+// can-sum.spec.js
 
 /* *************************************************************************************************
-Problem:            Collect Odds (Helper methods vs. Pure Recursion)
+Problem:            Can Sum (with Memoization)
 Main Formula:       
 Approach:           
 ************************************************************************************************* */
 
-describe("collect odds", () => {
-    const { collectOdds1, collectOdds2 } = require("./collect-odds.js");
+describe("can sum", () => {
+    const { naiveCanSum, memoizedCanSum } = require("./can-sum.js");
     beforeEach(() => {});
 
-    describe("collectOdds1 when called", () => {
-        it(`should return [1, 3, 5] when given [1,2,3,4,5] `, () => {
-            expect(collectOdds1([1,2,3,4,5])).toEqual([1, 3, 5]);
+    describe("naiveCanSum when called", () => {
+        it(`should return true when given 300, [7,14] `, () => {
+            expect(naiveCanSum(300, [7,14])).toEqual(true);
         });
     });
 
-    describe("collectOdds2 when called", () => {
-        it(`should return [1, 3, 5] when given [1,2,3,4,5] `, () => {
-            expect(collectOdds2([1,2,3,4,5])).toEqual([1, 3, 5]);
+    describe("memoizedCanSum when called", () => {
+        it(`should return true when given 300, [7,14] `, () => {
+            expect(memoizedCanSum(300, [7,14])).toEqual(true);
         });
     });
 });

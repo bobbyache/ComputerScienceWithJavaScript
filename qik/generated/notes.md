@@ -1,4 +1,4 @@
-# Collect Odds (Helper methods vs. Pure Recursion)
+# Can Sum (with Memoization)
 
 - Source(s):
     - [Hyperlink](https://)
