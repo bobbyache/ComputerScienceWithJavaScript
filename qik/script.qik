@@ -5,20 +5,20 @@ Input
 
 // To edit the problem statement, you can edit the fragment
 
-@title => "Minimum Size Sub-array Sum";
+@title => """;
 
-@leetNumber => "0209";
+@leetNumber => "0000";
 
-@approach => "Divide and conquer";
+@approach => "";
 @difficulty => "Easy";
-@optimizedFuncName => "minSubArrayLen";
+@optimizedFuncName => "";
 
-@leetUrl => "https://www.youtube.com/watch?v=v0aB9YCs1oc";
+@leetUrl => "https://";
 
 @naiveTimeComplexity =>         "O(N)";
 @naiveSpaceComplexity =>        "O(N)";
-@optimizedTimeComplexity =>     "O(1)";
-@optimizedSpaceComplexity =>    "O(1)";
+@optimizedTimeComplexity =>     "O(N)";
+@optimizedSpaceComplexity =>    "O(N)";
 
 @numArgs => "2";
 
