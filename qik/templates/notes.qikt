@@ -1,13 +1,9 @@
-# @{title}
+# @{title} (@{leetNumber})
 
-- Source(s):
-    - [Hyperlink](https://)
-    - [Hyperlink](https://)
-    - [Hyperlink](https://)
-
-- Difficulty: 
-- Related Topics:
-- Similar Questions:
+| | |
+| --- | --- |
+| Difficulty | @{difficulty} |
+| Approach | @{approach} |
 
 ## Problem
 
@@ -15,21 +11,38 @@ Describe the problem here...
 
 ## Solution
 
+### Naïve
+
 ```js
-const optimized = (num) => {
+const @{naiveFuncName} = (num) => {
     return null;
 };
 
 ```
-### Approach
-Divide and conquer?
 
-### Explanation
+### Optimized
+
+```js
+const @{optimizedFuncName} = (num) => {
+    return null;
+};
+
+```
+
+## Explanation
+
 nope.
 
-### Complexity
+## Complexity
 
 | Type | Naive | Optimized |
 | --- | --- | --- |
-| Time | O(n) | O(1) |
-| Space | O(n) | O(1) |
+| Time | @{naiveTimeComplexity} | @{optimizedTimeComplexity} |
+| Space | @{naiveSpaceComplexity} | @{optimizedSpaceComplexity} |
+
+# Reference(s):
+
+- [Hyperlink](https://msn.com)
+- [Hyperlink](https://msn.com)
+- [Hyperlink](https://msn.com)
+

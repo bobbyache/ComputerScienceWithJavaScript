@@ -9,18 +9,20 @@ Input
 
 @leetNumber => "0209";
 
-@naiveFuncName => "naive";
+@approach => "Divide and conquer";
+@difficulty => "Easy";
 @optimizedFuncName => "minSubArrayLen";
+
+@naiveTimeComplexity =>         "O(N)";
+@naiveSpaceComplexity =>        "O(N)";
+@optimizedTimeComplexity =>     "O(1)";
+@optimizedSpaceComplexity =>    "O(1)";
 
 @numArgs => "2";
 
 @param1 => "target";
 @param2 => "nums";
 @param3 => "";
-
-
-
-
 
 
 // Less important
@@ -30,6 +32,7 @@ Input
 @arg3 => "";
 
 @expectedOutput => "0";
+@naiveFuncName => "naive";
 
 /* *************************************************************************
 Functions start here...
