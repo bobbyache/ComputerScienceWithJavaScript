@@ -5,25 +5,25 @@ Input
 
 // To edit the problem statement, you can edit the fragment
 
-@title => """;
+@title => " Max Sub Array";
 
-@leetNumber => "0000";
+@leetNumber => "0053";
 
-@approach => "";
+@approach => "Dynamic Programming (Hadane's Algorithms)";
 @difficulty => "Easy";
-@optimizedFuncName => "";
+@optimizedFuncName => "maxSubArray";
 
-@leetUrl => "https://";
+@leetUrl => "https://leetcode.com/problems/maximum-subarray/";
 
 @naiveTimeComplexity =>         "O(N)";
 @naiveSpaceComplexity =>        "O(N)";
-@optimizedTimeComplexity =>     "O(N)";
+@optimizedTimeComplexity =>     "O(1)";
 @optimizedSpaceComplexity =>    "O(N)";
 
-@numArgs => "2";
+@numArgs => "1";
 
-@param1 => "target";
-@param2 => "nums";
+@param1 => "nums";
+@param2 => "target";
 @param3 => "";
 
 
@@ -42,13 +42,6 @@ Functions start here...
 @name => lowerCase(@title);
 @fileName => replace(@name, " ", "-");
 @folderName => @leetNumber + "-" + replace(@name, " ", "-");
-
-@snippetName =>
-    if removeSpaces(@leetNumber) == "" then 
-        "problem - " + lowerCase(replace(removePunctuation(@title), " ", "-"))
-    else 
-        "leet - " + @leetNumber + " - " + lowerCase(replace(removePunctuation(@title), " ", "-"))
-;
 
 @paramList =>
     if @numArgs == "1" then

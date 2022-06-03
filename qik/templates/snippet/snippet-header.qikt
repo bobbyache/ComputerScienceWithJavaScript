@@ -1,6 +1,4 @@
 /* *************************************************************************************************
-snippet name: @{snippetName}
-
 Problem:            @{title}
 Difficulty:         @{difficulty}
 Approach:           @{approach}

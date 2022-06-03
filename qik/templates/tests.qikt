@@ -19,13 +19,13 @@ describe("@{name}", () => {
     beforeEach(() => {});
 
     describe("@{naiveFuncName} when called", () => {
-        it(`should return @{expectedOutput} when given @{argList} `, () => {
+        it(`should...`, () => {
             expect(@{naiveFuncName}(@{argList})).toEqual(@{expectedOutput});
         });
     });
 
     describe("@{optimizedFuncName} when called", () => {
-        it(`should return @{expectedOutput} when given @{argList} `, () => {
+        it(`should...`, () => {
             expect(@{optimizedFuncName}(@{argList})).toEqual(@{expectedOutput});
         });
     });
@@ -35,5 +35,8 @@ describe("@{name}", () => {
 NimbleText
 
 expect(@{naiveFuncName}(@{nimbleArgList})).toEqual(@{nimbleExpected});
+
+
+expect(@{optimizedFuncName}(@{nimbleArgList})).toEqual(@{nimbleExpected});
 
 ************************************************************************************************* */
