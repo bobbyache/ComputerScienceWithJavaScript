@@ -1,0 +1,3 @@
+// assert(@{naiveFuncName}(@{nimbleArgList}), @{nimbleExpected});
+
+// assert(@{optimizedFuncName}(@{nimbleArgList}), @{nimbleExpected});

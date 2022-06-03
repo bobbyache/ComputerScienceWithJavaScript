@@ -29,5 +29,8 @@ module.exports = {
 Use debugger
     node inspect @{fileName}.js
 ************************************************************************************************* */
+
+
+
 // @{naiveFuncName}(@{argList})
 // @{optimizedFuncName}(@{argList})

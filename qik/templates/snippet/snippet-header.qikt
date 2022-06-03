@@ -1,0 +1,16 @@
+/* *************************************************************************************************
+snippet name: @{snippetName}
+
+Problem:            @{title}
+Difficulty:         @{difficulty}
+Approach:           @{approach}
+Leet No.:           @{leetNumber}
+Leet Url:           @{leetUrl}
+Efficiency:
+    Time (Optimized): @{optimizedTimeComplexity}
+    Space (Optmized): @{optimizedSpaceComplexity}
+
+
+** Note: Ensure the assert function (see readme) is globally available to your snippets.
+    You may need to run it first.
+************************************************************************************************* */

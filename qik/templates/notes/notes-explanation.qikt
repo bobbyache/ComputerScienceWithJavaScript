@@ -1,0 +1,18 @@
+```
+
+## Explanation
+
+nope.
+
+## Complexity
+
+| Type | Naive | Optimized |
+| --- | --- | --- |
+| Time | @{naiveTimeComplexity} | @{optimizedTimeComplexity} |
+| Space | @{naiveSpaceComplexity} | @{optimizedSpaceComplexity} |
+
+# Reference(s):
+
+- [Leet Problem no. @{leetNumber}](@{leetUrl}) - @{title}
+- [Hyperlink](https://msn.com)
+- [Hyperlink](https://msn.com)

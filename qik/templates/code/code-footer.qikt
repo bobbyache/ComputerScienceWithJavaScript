@@ -1,0 +1,14 @@
+module.exports = {
+    @{naiveFuncName}: @{naiveFuncName},
+    @{optimizedFuncName}: @{optimizedFuncName},
+};
+
+/* *************************************************************************************************
+Use debugger
+    node inspect @{fileName}.js
+
+    Use "debugger" to debug. See main README.
+************************************************************************************************* */
+
+// @{naiveFuncName}(@{argList})
+// @{optimizedFuncName}(@{argList})

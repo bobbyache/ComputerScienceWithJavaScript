@@ -2,20 +2,48 @@
     "scriptPath": "script.qik",
     "fragments": [
         {
-            "id": "code",
-            "path": "templates\\code.qikt"
-        },
-        {
-            "id": "chrome-snippet",
-            "path": "templates\\chrome-snippet.qikt"
-        },
-        {
             "id": "tests",
             "path": "templates\\tests.qikt"
         },
         {
-            "id": "notes",
-            "path": "templates\\notes.qikt"
+            "id": "notes-top",
+            "path": "templates\\notes\\notes-top.qikt"
+        },
+        {
+            "id": "notes-naive",
+            "path": "templates\\notes\\notes-naive.qikt"
+        },
+        {
+            "id": "notes-optimized",
+            "path": "templates\\notes\\notes-optimized.qikt"
+        },
+        {
+            "id": "notes-explanation",
+            "path": "templates\\notes\\notes-explanation.qikt"
+        },
+        {
+            "id": "naive-code",
+            "path": "naive.js"
+        },
+        {
+            "id": "optimized-code",
+            "path": "optimized.js"
+        },
+        {
+            "id": "snippet-footer",
+            "path": "templates\\snippet\\snippet-footer.qikt"
+        },
+        {
+            "id": "snippet-header",
+            "path": "templates\\snippet\\snippet-header.qikt"
+        },
+        {
+            "id": "code-footer",
+            "path": "templates\\code\\code-footer.qikt"
+        },
+        {
+            "id": "code-header",
+            "path": "templates\\code\\code-header.qikt"
         }
     ],
     "documents": [
@@ -24,16 +52,20 @@
             "structure": ["code"]
         },
         {
-            "outputFilePaths": ["generated\\chrome-snippet.js"],
-            "structure": ["chrome-snippet"]
-        },
-        {
             "outputFilePaths": ["generated\\tests.spec.js"],
             "structure": ["tests"]
         },
         {
             "outputFilePaths": ["generated\\notes.md"],
-            "structure": ["notes"]
+            "structure": ["notes-top", "notes-naive", "naive-code", "notes-optimized", "optimized-code", "notes-explanation"]
+        },
+        {
+            "outputFilePaths": ["generated\\code.js"],
+            "structure": ["code-header", "naive-code", "optimized-code", "code-footer"]
+        },
+        {
+            "outputFilePaths": ["generated\\chrome-snippet.js"],
+            "structure": ["snippet-header", "naive-code", "optimized-code", "snippet-footer"]
         }
     ]
 }

@@ -1,0 +1,15 @@
+// @{folderName}
+// @{fileName}.js
+// @{fileName}.spec.js
+// @{fileName}.md
+
+/* *************************************************************************************************
+Problem:            @{title}
+Difficulty:         @{difficulty}
+Approach:           @{approach}
+Leet No.:           @{leetNumber}
+Leet Url:           @{leetUrl}
+Efficiency:
+    Time (Optimized): @{optimizedTimeComplexity}
+    Space (Optmized): @{optimizedSpaceComplexity}
+************************************************************************************************* */

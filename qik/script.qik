@@ -13,6 +13,8 @@ Input
 @difficulty => "Easy";
 @optimizedFuncName => "minSubArrayLen";
 
+@leetUrl => "https://www.youtube.com/watch?v=v0aB9YCs1oc";
+
 @naiveTimeComplexity =>         "O(N)";
 @naiveSpaceComplexity =>        "O(N)";
 @optimizedTimeComplexity =>     "O(1)";
