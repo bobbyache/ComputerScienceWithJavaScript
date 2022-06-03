@@ -1,25 +1,49 @@
 
-@title => "Can Sum (with Memoization)";
-@name => "can sum";
+/* *************************************************************************
+Input
+************************************************************************* */
 
-@naiveFuncName => "naiveCanSum";
-@optimizedFuncName => "memoizedCanSum";
+// To edit the problem statement, you can edit the fragment
+
+@title => "Minimum Size Sub-array Sum";
+
+@leetNumber => "0209";
+
+@naiveFuncName => "naive";
+@optimizedFuncName => "minSubArrayLen";
 
 @numArgs => "2";
 
-@param1 => "targetSum";
-@param2 => "numbers";
-@param3 => "memo = {}";
+@param1 => "target";
+@param2 => "nums";
+@param3 => "";
 
-@arg1 => "300";
-@arg2 => "[7,14]";
-@arg3 => "memo";
 
-@expectedOutput => "true";
 
-// Here are the functions
 
+
+
+// Less important
+// -------------------------------------------------------------------------
+@arg1 => "nums";
+@arg2 => "target";
+@arg3 => "";
+
+@expectedOutput => "0";
+
+/* *************************************************************************
+Functions start here...
+************************************************************************* */
+@name => lowerCase(@title);
 @fileName => replace(@name, " ", "-");
+@folderName => @leetNumber + "-" + replace(@name, " ", "-");
+
+@snippetName =>
+    if removeSpaces(@leetNumber) == "" then 
+        "problem - " + lowerCase(replace(removePunctuation(@title), " ", "-"))
+    else 
+        "leet - " + @leetNumber + " - " + lowerCase(replace(removePunctuation(@title), " ", "-"))
+;
 
 @paramList =>
     if @numArgs == "1" then
@@ -30,7 +54,6 @@
         @param1 + ", " + @param2 + ", " + @param3
 ;
 
-
 @argList =>
     if @numArgs == "1" then
         @arg1
@@ -40,3 +63,14 @@
         @arg1 + ", " + @arg2 + ", " + @arg3
 ;
 
+@nimbleArgList =>
+    if @numArgs == "1" then "$0"
+    else if @numArgs == "2" then "$0, $1"
+    else "$0, $1, $2"
+;
+
+@nimbleExpected =>
+    if @numArgs == "1" then "$1"
+    else if @numArgs == "2" then "$2"
+    else "$3"
+;

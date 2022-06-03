@@ -82,51 +82,32 @@ When you're done you can press `Ctrl + C` to exit the repl terminal. From here y
 
 # Starter Snippets
 
-- There is a Qik file that you can use to generate problems and the root folder. Simply type `generate-new-problem.sh` in a bash terminal.
-- Alternatively you can use `PowerShell` terminal and execute the following command: `QikConsole gen simple -f ./qik/qik-project.json`.
+- There is a Qik file that you can use to generate problems and the root folder. Simply type `generate-new-problem.sh` in a bash terminal. Alternatively you can use `PowerShell` terminal and execute the following command: `QikConsole gen simple -f ./qik/qik-project.json`.
 
-### problem.js
+- To generate the test cases you can use [NimblText](https://nimbletext.com/Live).
+
 ```
-// Source: https://www.geeksforgeeks.org/two-pointers-technique/
+console.log(maxSubArray($0)) // expect: $1
 
-const mostWater_1 = (nums, target) => {
-    return null;
-};
+assert(maxSubArray($0), /* expect */ $1);
 
-const mostWater_2 = (nums, target) => {
-    return null;
-};
+expect(maxSubArray($0)).toEqual($1);
 
-module.exports = {
-    unOptimized: mostWater_1,
-    optimized: mostWater_2,
-};
 ```
 
-### problem.spec.js
+- Can add this assert function in the snippets for Google Chrome
+- Add it to its own snippet file lie `_assert` and then run it. Then it should be globally available to all your snippets.
+
+```javascript
+function assert(output, expected) {
+    if (output === expected) {
+        console.log(`Passed: ${output} is expected.`);
+    } else {
+        console.warn(`Failed: Expected to be ${expected}, but was ${output}`);
+    }
+}
 ```
-describe("Problem", () => {
-    const { unOptimized, optimized } = require("./problem.js");
 
-    beforeEach(() => {});
-
-    // it(`test`, () => {
-    //     expect(true).toBe(true);
-    // })
-    
-    describe("Unoptimized", () => {
-        it(`should return ? when given ?`, () => {
-       
-        })
-    });
-
-    describe("Optimized", () => {
-        it(`should return ? when given ?`, () => {
-       
-        })
-    });
-});
-```
 
 ### References
 

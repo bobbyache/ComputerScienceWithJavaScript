@@ -6,6 +6,10 @@
             "path": "templates\\code.qikt"
         },
         {
+            "id": "chrome-snippet",
+            "path": "templates\\chrome-snippet.qikt"
+        },
+        {
             "id": "tests",
             "path": "templates\\tests.qikt"
         },
@@ -18,6 +22,10 @@
         {
             "outputFilePaths": ["generated\\code.js"],
             "structure": ["code"]
+        },
+        {
+            "outputFilePaths": ["generated\\chrome-snippet.js"],
+            "structure": ["chrome-snippet"]
         },
         {
             "outputFilePaths": ["generated\\tests.spec.js"],

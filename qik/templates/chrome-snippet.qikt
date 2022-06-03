@@ -1,0 +1,24 @@
+
+/* *************************************************************************************************
+
+snippet name: @{snippetName}
+
+** Note: Ensure the assert function (see readme) is globally available to your snippets.
+    You may need to run it first.
+
+Problem:            @{title}
+Main Formula:       
+Approach:           
+************************************************************************************************* */
+
+const @{naiveFuncName} = (@{paramList}) => {
+    return null;
+};
+
+const @{optimizedFuncName} = (@{paramList}) => {
+    return null;
+};
+
+// assert(@{naiveFuncName}(@{nimbleArgList}), @{nimbleExpected});
+
+// assert(@{optimizedFuncName}(@{nimbleArgList}), @{nimbleExpected});
