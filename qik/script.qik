@@ -5,24 +5,24 @@ Input
 
 // To edit the problem statement, you can edit the fragment
 
-@title => " Max Sub Array";
+@title => "Two Sum on Sorted Array";
 
-@leetNumber => "0053";
+@leetNumber => "0167";
 
-@approach => "Dynamic Programming (Hadane's Algorithms)";
+@approach => "Two Pointer. Shifting Pointers";
 @difficulty => "Easy";
-@optimizedFuncName => "maxSubArray";
+@optimizedFuncName => "twoSum";
 
 @leetUrl => "https://leetcode.com/problems/maximum-subarray/";
 
 @naiveTimeComplexity =>         "O(N)";
 @naiveSpaceComplexity =>        "O(N)";
-@optimizedTimeComplexity =>     "O(1)";
-@optimizedSpaceComplexity =>    "O(N)";
+@optimizedTimeComplexity =>     "O(N)";
+@optimizedSpaceComplexity =>    "O(1)";
 
-@numArgs => "1";
+@numArgs => "2";
 
-@param1 => "nums";
+@param1 => "numbers";
 @param2 => "target";
 @param3 => "";
 
