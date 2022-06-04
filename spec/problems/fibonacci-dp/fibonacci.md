@@ -1,4 +1,4 @@
-# Can Sum (with Memoization)
+# Fibonnaci (with Memoization)
 
 - Source(s):
     - [Hyperlink](https://)
@@ -20,7 +20,7 @@ const optimized = (num) => {
 
 ```
 ### Approach
-Divide and conquer?
+Dynamic Programming, Recursion, Memoization
 
 ### Explanation
 nope.

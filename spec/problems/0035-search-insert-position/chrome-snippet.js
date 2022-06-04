@@ -1,7 +1,7 @@
 /* *************************************************************************************************
-Problem:             Search Insert Position
+Problem:            Search Insert Position
 Difficulty:         Easy
-Approach:           Shifting Pointers
+Approach:           Shifting Pointers, Binary Search 
 Leet No.:           0035
 Leet Url:           https://leetcode.com/problems/search-insert-position/
 Efficiency:
@@ -9,12 +9,9 @@ Efficiency:
     Space (Optmized): O(N)
 
 
-Given a sorted array of distinct integers and a target value, return the index if the target 
-is found. If not, return the index where it would be if it were inserted in order.
-
-You must write an algorithm with O(log n) runtime complexity.
+** Note: Ensure the assert function (see readme) is globally available to your snippets.
+    You may need to run it first.
 ************************************************************************************************* */
-
 
 const searchInsert = (nums, target) => {
     
@@ -39,17 +36,4 @@ const searchInsert = (nums, target) => {
     return (nums[mid] > target) ? mid : mid + 1;
 };
 
-module.exports = {
-    searchInsert: searchInsert
-};
-
-/* *************************************************************************************************
-Use debugger
-    node inspect -search-insert-position.js
-
-    Use "debugger" to debug. See main README.
-************************************************************************************************* */
-
-// naive(nums)
-// searchInsert(nums)
-
+assert(searchInsert([1,3,4,6,7,9], 2), 1);

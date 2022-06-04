@@ -3,7 +3,7 @@
 | | |
 | --- | --- |
 | Difficulty | Easy |
-| Approach | Shifting Pointers |
+| Approach | Shifting Pointers, Binary Search |
 
 ## Problem
 

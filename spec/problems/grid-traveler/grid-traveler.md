@@ -1,4 +1,4 @@
-# Fibonnaci (with Memoization)
+# The Grid Traveler
 
 - Source(s):
     - [Hyperlink](https://)
@@ -19,8 +19,9 @@ const optimized = (num) => {
 };
 
 ```
+
 ### Approach
-Divide and conquer?
+Dynamic Programming, Recursion, Memoization
 
 ### Explanation
 nope.

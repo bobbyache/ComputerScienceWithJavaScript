@@ -4,7 +4,7 @@
 /* *************************************************************************************************
 Problem:            Can Sum (with Memoization)
 Main Formula:       
-Approach:           
+Approach:           Dynamic Programming, Recursion, Memoization
 ************************************************************************************************* */
 
 const naiveCanSum = (targetSum, numbers) => {

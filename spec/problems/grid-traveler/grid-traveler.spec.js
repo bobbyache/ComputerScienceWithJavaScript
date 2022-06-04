@@ -3,7 +3,7 @@
 /* *************************************************************************************************
 Problem:            The Grid Traveler
 Main Formula:       
-Approach:           
+Approach:           Dynamic Programming, Recursion, Memoization
 ************************************************************************************************* */
 
 describe("grid-traveler", () => {

@@ -4,7 +4,7 @@
 /* *************************************************************************************************
 Problem:            Fibonnaci (with Memoization)
 Main Formula:       
-Approach:           
+Approach:           Dynamic Programming, Recursion, Memoization
 ************************************************************************************************* */
 
 const naiveFibonacci = (num) => {

@@ -1,13 +1,8 @@
 
-// 0053-maximum-sub-array
-// maximum-sub-array.js
-// maximum-sub-array.spec.js
-// maximum-sub-array.md
-
 /* *************************************************************************************************
 Problem:            Maximum Sub Array
 Main Formula:       
-Approach:           
+Approach:           Dynamic Programming
 ************************************************************************************************* */
 
 const maxSubArray = (nums) => {

@@ -1,10 +1,8 @@
 
-// grid-traveler.js
-
 /* *************************************************************************************************
 Problem:            The Grid Traveler
 Main Formula:       
-Approach:           
+Approach:           Dynamic Programming, Recursion, Memoization
 ************************************************************************************************* */
 
 const gridTraveler_1 = (m, n) => {
