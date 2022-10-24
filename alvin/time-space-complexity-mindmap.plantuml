@@ -1,0 +1,11 @@
+@startmindmap
+
++ Complexity
+++ Graphs
++++ Time
+++++_ Usually O(e) e = no. of edges
+++++_ or O(n^2) n = no. of nodes (worst case bi-directional edges)
+++ Space
++++_ O(n) n = no. nodes (both iterative and recursive)
+
+@endmindmap

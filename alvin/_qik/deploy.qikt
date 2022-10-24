@@ -1,0 +1,32 @@
+<# #######################################################################################
+This script is used to copy the generated contents for an problem to a specific folder.
+####################################################################################### #>
+
+$exeDir = Get-Location
+$srcDir = Join-Path -Path $exeDir -ChildPath "/alvin/_qik"
+$dstDir = Split-Path -Path $srcDir -Parent
+$itemDir = Join-Path -Path $dstDir -ChildPath "@{FolderName}"
+$src = Join-Path -Path $srcDir -ChildPath "*"
+
+# Write-Output  $srcDir
+# Write-Output  $dstDir
+# Write-Output  $itemDir
+# Write-Output  $src
+
+# Create the item directory
+If (!(Test-Path $itemDir)) {
+    New-Item -Path $itemDir -ItemType Directory
+}
+
+If (Test-Path $itemDir) {
+    Remove-Item -Path $itemDir"/*" -Include *.html,*.htm -Force
+} 
+
+# Move all problems to the item directory
+Get-ChildItem -Path $src -Include *.html,*.htm -Recurse | Move-Item -Destination $itemDir
+# Compress-Archive -Path $itemDir"/*" -DestinationPath "C:\Users\RobB\Videos\"${@FolderName}".zip" -Force
+Remove-Item -Force $srcDir"/deploy.ps1"
+
+Copy-Item $srcDir"/gen-reset.qik" -Destination $srcDir"/gen.qik"
+    
+Exit 0

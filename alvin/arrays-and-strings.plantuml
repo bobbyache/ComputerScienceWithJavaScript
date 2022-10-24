@@ -1,0 +1,20 @@
+@startmindmap
+
++ Arrays & Strings
+++[#lightgreen] Sorted
++++_ **yes**
+++++_ find
++++++_ binary search
+++++_ remove duplicates
++++++_ edit in place using shifting pointers
++++_ **no**
+++++_ find contigious sub-array
++++++_ Kaldane's algorithm
++++++_ Sliding window (concertina)
+++++_ Find 2 numbers\nto sum to input
++++++_ Inverse hash lookup
+++[#lightgreen] Backspace Compare
++++_ Shift pointers from back to front
+
+@endmindmap
+

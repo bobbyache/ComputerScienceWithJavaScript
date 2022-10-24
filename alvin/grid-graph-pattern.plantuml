@@ -1,0 +1,25 @@
+@startuml "Grid Graph"
+title "Grid Graph"
+
+|Grid Graphs|
+start
+
+:Traverse rows and columns;
+if (Disconnected islands?) then (yes)
+    :Record disconnected islands for traversal;
+else (no)
+endif
+
+while (Each island)
+    :Traverse island using visited pattern to avoid cycles;
+    if (Looking for shortest path?) then (yes)
+        :Breadth-first traversal;
+    else (no)
+        :Depth-first traversal;
+    endif
+endwhile
+
+: return result;
+
+end
+@enduml

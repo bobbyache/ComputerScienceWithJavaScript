@@ -1,0 +1,67 @@
+@startmindmap
+
++ Graphs
+++[#lightgreen] Common
++++_ **Always draw graph visually**
++++_ DAG (Directed Acyclic Graph)
+++++_ An undirected graph always contains trivial cycles
+++++_ A directed graph can still have cycles
++++_ Cyclic?
+++++_ Use visited O(1) HashSet
+++++_ Require cycle detection?
++++_ Remember JScript index string conversion
+++[#lightgreen] convert edge to adjacency list
++++_ iterate through edges
++++_ add node key (both if bi-directional) if not exists
++++_ add neighbor (both if bi-directional)
+++[#lightblue] has path
++++_ use adjacency list
++++_ directed + edges are acyclic (uni-directional)
++++_ use either depth-first or breadth-first traversal
++++_ <b>Time: O(e), Space: O(n)</b>
++++_ Undirected (with edge list) so convert to adjacency list
+++[#lightblue] Connected Components
++++_ Iterate over all nodes
++++_ Traverse the nodes and mark as visited
++++_ Increment count after each  completed traversal
++++[#lightblue] Largest Component
+++++_ Count all nodes in each traversal
+++++_ Perform some max calc logic (return largest)
+++[#lightblue] Shortest Path
++++_ **Must** use a breadth-first search
++++_ Track distance with node (increment before pushing onto queue)
+++[#orange] Grid Graphs
++++_ Combination of key iteration and component traversal
++++_ Ensure in-bounds
++++_ Use N, S, E, W neighbor pattern
++++_ Track visited
+++++_ avoid cycles
+++++_ avoid multiple-traversals
++++[#lightblue] Island Count
+++++_ Iterate over all nodes to jump islands
+++++_ Traverse "land"
+++++[#lightblue] Minimum island
++++++_ apply minimum logic
++++[#lightblue] Closest Carrot
+++++_ **Must** use breadth-first traversal
+****_ Also see **shortest path**
+++++_ Use **deltas** to clean up breadth-first logic
++++[#lightblue] Best Bridge
+++++_ Find the first island
+++++_ Breadth-first probe to find second island
+****_ Also see **shortest path**
+++[#lightblue] Longest Path
++++_ **Must** use a depth-first search
++++_ Identify terminal nodes
++++_ Bubble up (increment distance) from terminal nodes to parents
++++_ Store node distances in lookup object
++++_ Apply max logic via lookup object
++++[#lightblue] Semesters Required
+++[#lightblue] Has Cycle
++++_ White-grey-black algorithm
+++++_ a depth-first traversal variation
+++[#lightblue] Prereqs Possible
++++_ involves cycle detection and discovering the longest path
+
+@endmindmap
+

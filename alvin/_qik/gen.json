@@ -1,0 +1,51 @@
+{
+    "scriptPath": "gen.qik",
+    "postExecutionScripts": [
+        "deploy.ps1"
+
+    ],
+    "fragments": [
+        {
+            "id": "deploy",
+            "path": "deploy.qikt"
+        },
+        {
+            "id": "js-problem",
+            "path": "js-problem.qikt"
+        },
+        {
+            "id": "js-solution",
+            "path": "js-solution.qikt"
+        },
+        {
+            "id": "py-problem",
+            "path": "py-problem.qikt"
+        },
+        {
+            "id": "py-solution",
+            "path": "py-solution.qikt"
+        }
+    ],
+    "documents": [
+        {
+            "outputFilePaths": ["deploy.ps1"],
+            "structure": ["deploy"]
+        },
+        {
+            "outputFilePaths": ["js-problem.html"],
+            "structure": ["js-problem"]
+        },
+        {
+            "outputFilePaths": ["js-solution.html"],
+            "structure": ["js-solution"]
+        },
+        {
+            "outputFilePaths": ["py-problem.html"],
+            "structure": ["py-problem"]
+        },
+        {
+            "outputFilePaths": ["py-solution.html"],
+            "structure": ["py-solution"]
+        }
+    ]
+}
