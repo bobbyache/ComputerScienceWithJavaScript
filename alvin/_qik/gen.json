@@ -10,20 +10,12 @@
             "path": "deploy.qikt"
         },
         {
-            "id": "js-problem",
-            "path": "js-problem.qikt"
+            "id": "cpp-problem",
+            "path": "cpp-problem.qikt"
         },
         {
-            "id": "js-solution",
-            "path": "js-solution.qikt"
-        },
-        {
-            "id": "py-problem",
-            "path": "py-problem.qikt"
-        },
-        {
-            "id": "py-solution",
-            "path": "py-solution.qikt"
+            "id": "cpp-solution",
+            "path": "cpp-solution.qikt"
         }
     ],
     "documents": [
@@ -32,20 +24,12 @@
             "structure": ["deploy"]
         },
         {
-            "outputFilePaths": ["js-problem.html"],
-            "structure": ["js-problem"]
+            "outputFilePaths": ["cpp-problem.html"],
+            "structure": ["cpp-problem"]
         },
         {
-            "outputFilePaths": ["js-solution.html"],
-            "structure": ["js-solution"]
-        },
-        {
-            "outputFilePaths": ["py-problem.html"],
-            "structure": ["py-problem"]
-        },
-        {
-            "outputFilePaths": ["py-solution.html"],
-            "structure": ["py-solution"]
+            "outputFilePaths": ["cpp-solution.html"],
+            "structure": ["cpp-solution"]
         }
     ]
 }
