@@ -32,27 +32,34 @@
 
 +++[#lightgreen] Reverse
 ++++_ Maintain prev, current, and next pointers
-++++_ Reverse current.next to point to prev
+++++_ **Reverse current.next to point to prev**
 ++++_ return prev as head of new linked list
 
 +++[#lightgreen] Zipper
-++++_ Maintain tail, current1, current2 pointers
+++++_ Maintain **tail**, current1, current2 pointers
 ++++_ Tail is initialized to current1
 ++++_ Use modulus to alternate and pick next list to add to tail
 ++++_ Tack on rest of longest to end of shortest (tail.next)
 ++++_ return initial head1
 
-+++[#lightgreen] Merge
-++++_ Lists must be sorted
-++++_ Use a dummy node pattern
-+++++_ track with tail, current1, current2
-+++++_ Beginning the traversal would be clunky otherwise
-+++++_ Begin comparing which is smaller to add to dummy node
-++++_ Tack on rest of longest to end of shortest (tail.next)
-++++_ Return dummyNode.next
-++++_ **Recursion:**
-+++++_ No dummy node required
-+++++_ Helps to think of moving from back to front of list\n...always return the front of the list
++++ Dummy Head
+++++_ Useful technique to **create new linked lists.**
+++++_ Use dummy node pattern on iterative approach\n...to prevent clunky code
+++++_ Track with tail, return dummyNode.**next**
+
+++++[#lightgreen] Merge
++++++_ Lists must be sorted
+++++++_ track with tail, current1, current2
+++++++_ Begin comparing which is smaller to add to dummy node
++++++_ Tack on rest of longest to end of shortest (tail.next)
++++++_ **Recursion:**
+++++++_ No dummy node required
+++++++_ Helps to think of moving from back to front of list\n...always return the front of the list
+
+++++[#lightgreen] Create Linked list
++++++_ **Recursion:**
+++++++_ No dummy node required\n...classic array index tracking pattern
+++++++_ Helps to think of moving from back to front of list\n...always return the front of the list
 
 
 +++[#lightgreen] Remove node
