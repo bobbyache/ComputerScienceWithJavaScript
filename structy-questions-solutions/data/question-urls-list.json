@@ -1,0 +1,2229 @@
+[
+    {
+        "id": 189,
+        "module": "0. Introduction",
+        "type": "lecture",
+        "number": 0,
+        "name": "course introduction",
+        "slug": "course-introduction",
+        "verbose": "Welcome to Structy! Learn how to get the most out of the course.",
+        "timeEstimate": 5,
+        "premium": false,
+        "tags": [
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 166,
+        "module": "0. Introduction",
+        "type": "lecture",
+        "number": 1,
+        "name": "code workspace tour",
+        "slug": "code-workspace-tour",
+        "verbose": "Take a tour of the code workspace and learn about its features.",
+        "timeEstimate": 2,
+        "premium": false,
+        "tags": [
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 33,
+        "module": "0. Introduction",
+        "type": "challenge",
+        "number": 2,
+        "name": "hey programmer",
+        "slug": "hey-programmer",
+        "verbose": "A quick intro. Learn how to get the most out of Structy.",
+        "timeEstimate": 5,
+        "premium": false,
+        "tags": [
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 2,
+        "module": "0. Introduction",
+        "type": "challenge",
+        "number": 3,
+        "name": "max-value",
+        "slug": "max-value",
+        "verbose": "Find the largest value in an array. No built-in methods allowed.",
+        "timeEstimate": 15,
+        "premium": false,
+        "tags": [
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 30,
+        "module": "0. Introduction",
+        "type": "challenge",
+        "number": 4,
+        "name": "is prime",
+        "slug": "is-prime",
+        "verbose": "Check if a given number is a prime.",
+        "timeEstimate": 25,
+        "premium": false,
+        "tags": [
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 169,
+        "module": "1. Array and String",
+        "type": "lecture",
+        "number": 5,
+        "name": "array and string welcome",
+        "slug": "array-and-string-welcome",
+        "verbose": "Welcome to the array and string module.",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "string",
+            "hash map",
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 1,
+        "module": "1. Array and String",
+        "type": "challenge",
+        "number": 6,
+        "name": "uncompress",
+        "slug": "uncompress",
+        "verbose": "Uncompress a string.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "string"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 3,
+        "module": "1. Array and String",
+        "type": "challenge",
+        "number": 7,
+        "name": "compress",
+        "slug": "compress",
+        "verbose": "Compress a string.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "string"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 49,
+        "module": "1. Array and String",
+        "type": "challenge",
+        "number": 8,
+        "name": "anagrams",
+        "slug": "anagrams",
+        "verbose": "Check if two strings are anagrams.",
+        "timeEstimate": 30,
+        "premium": true,
+        "tags": [
+            "hash map"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 19,
+        "module": "1. Array and String",
+        "type": "challenge",
+        "number": 9,
+        "name": "most frequent char",
+        "slug": "most-frequent-char",
+        "verbose": "Find the most frequent character in a string.",
+        "timeEstimate": 25,
+        "premium": true,
+        "tags": [
+            "hash map"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 11,
+        "module": "1. Array and String",
+        "type": "challenge",
+        "number": 10,
+        "name": "pair sum",
+        "slug": "pair-sum",
+        "verbose": "Find a pair of array elements that sum to a given target.",
+        "timeEstimate": 45,
+        "premium": true,
+        "tags": [
+            "hash map"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 17,
+        "module": "1. Array and String",
+        "type": "challenge",
+        "number": 11,
+        "name": "pair product",
+        "slug": "pair-product",
+        "verbose": "Find a pair of array elements that multiply to a given target.",
+        "timeEstimate": 35,
+        "premium": true,
+        "tags": [
+            "hash map"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 179,
+        "module": "1. Array and String",
+        "type": "lecture",
+        "number": 12,
+        "name": "check in",
+        "slug": "check-in",
+        "verbose": "Just a friendly reminder on how to learn :)",
+        "timeEstimate": 3,
+        "premium": true,
+        "tags": [
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 6,
+        "module": "1. Array and String",
+        "type": "challenge",
+        "number": 13,
+        "name": "intersection",
+        "slug": "intersection",
+        "verbose": "Find the intersection of two arrays.",
+        "timeEstimate": 35,
+        "premium": true,
+        "tags": [
+            "hash map"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 37,
+        "module": "1. Array and String",
+        "type": "challenge",
+        "number": 14,
+        "name": "five sort",
+        "slug": "five-sort",
+        "verbose": "Rearrange elements of an array such that all fives appear at the end.",
+        "timeEstimate": 35,
+        "premium": true,
+        "tags": [
+            "sort"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 232,
+        "module": "1. Array and String",
+        "type": "quiz",
+        "number": 15,
+        "name": "array and string quiz",
+        "slug": "array-and-string-quiz",
+        "verbose": "A quick quiz to check your knowledge.",
+        "timeEstimate": 10,
+        "premium": true,
+        "tags": [
+            "string",
+            "quiz"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 167,
+        "module": "1. Array and String",
+        "type": "lecture",
+        "number": 16,
+        "name": "array and string wrap up",
+        "slug": "array-and-string-wrap-up",
+        "verbose": "",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "string",
+            "hash map",
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 185,
+        "module": "2. Linked List",
+        "type": "lecture",
+        "number": 17,
+        "name": "linked list welcome",
+        "slug": "linked-list-welcome",
+        "verbose": "Welcome to the linked list module.",
+        "timeEstimate": 1,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 180,
+        "module": "2. Linked List",
+        "type": "lecture",
+        "number": 18,
+        "name": "linked list intro",
+        "slug": "linked-list-intro",
+        "verbose": "Let's learn about linked lists!",
+        "timeEstimate": 10,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 171,
+        "module": "2. Linked List",
+        "type": "lecture",
+        "number": 19,
+        "name": "linked list warm up",
+        "slug": "linked-list-warm-up",
+        "verbose": "Get ready for the upcoming linked list problems by watching us implement a basic traversal.",
+        "timeEstimate": 15,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 39,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 20,
+        "name": "linked list values",
+        "slug": "linked-list-values",
+        "verbose": "Return an array of all values of a linked list.",
+        "timeEstimate": 30,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 100,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 21,
+        "name": "sum list",
+        "slug": "sum-list",
+        "verbose": "Sum all values in a linked list.",
+        "timeEstimate": 25,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 9,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 22,
+        "name": "linked list find",
+        "slug": "linked-list-find",
+        "verbose": "Check if a linked list contains a given value.",
+        "timeEstimate": 30,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 76,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 23,
+        "name": "get node value",
+        "slug": "get-node-value",
+        "verbose": "Return the value of a linked list at a given index.",
+        "timeEstimate": 30,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 4,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 24,
+        "name": "reverse list",
+        "slug": "reverse-list",
+        "verbose": "Reverse the order of a linked-list.",
+        "timeEstimate": 30,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "free"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 38,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 25,
+        "name": "zipper lists",
+        "slug": "zipper-lists",
+        "verbose": "Zipper two linked lists together.",
+        "timeEstimate": 40,
+        "premium": false,
+        "tags": [
+            "linked list",
+            "free"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 5,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 26,
+        "name": "merge lists",
+        "slug": "merge-lists",
+        "verbose": "Merge two sorted linked lists into a single linked list.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 265,
+        "module": "2. Linked List",
+        "type": "lecture",
+        "number": 27,
+        "name": "pep talk",
+        "slug": "pep-talk",
+        "verbose": "Some advice from a friend.",
+        "timeEstimate": 2,
+        "premium": true,
+        "tags": [
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 36,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 28,
+        "name": "is univalue list",
+        "slug": "is-univalue-list",
+        "verbose": "Check if a linked list contains only a single unique value.",
+        "timeEstimate": 30,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 91,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 29,
+        "name": "longest streak",
+        "slug": "longest-streak",
+        "verbose": "Find the longest consecutive streak of values in a linked list.",
+        "timeEstimate": 30,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 89,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 30,
+        "name": "remove node",
+        "slug": "remove-node",
+        "verbose": "Remove a node from a linked list.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 67,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 31,
+        "name": "insert node",
+        "slug": "insert-node",
+        "verbose": "Insert a node into a linked list.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 12,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 32,
+        "name": "create linked list",
+        "slug": "create-linked-list",
+        "verbose": "Create a singly linked list from an array of values.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 71,
+        "module": "2. Linked List",
+        "type": "challenge",
+        "number": 33,
+        "name": "add lists",
+        "slug": "add-lists",
+        "verbose": "Add two linked lists representing numbers.",
+        "timeEstimate": 70,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 134,
+        "module": "2. Linked List",
+        "type": "quiz",
+        "number": 34,
+        "name": "linked list quiz",
+        "slug": "linked-list-quiz",
+        "verbose": "Check your linked list knowledge.",
+        "timeEstimate": 10,
+        "premium": true,
+        "tags": [
+            "linked list",
+            "quiz"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 170,
+        "module": "2. Linked List",
+        "type": "lecture",
+        "number": 35,
+        "name": "linked list wrap up",
+        "slug": "linked-list-wrap-up",
+        "verbose": "",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "linked list",
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 172,
+        "module": "3. Binary Tree",
+        "type": "lecture",
+        "number": 36,
+        "name": "binary tree welcome",
+        "slug": "binary-tree-welcome",
+        "verbose": "Welcome to the binary tree module.",
+        "timeEstimate": 1,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 176,
+        "module": "3. Binary Tree",
+        "type": "lecture",
+        "number": 37,
+        "name": "binary tree intro",
+        "slug": "binary-tree-intro",
+        "verbose": "Let's learn about binary trees!",
+        "timeEstimate": 10,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 174,
+        "module": "3. Binary Tree",
+        "type": "lecture",
+        "number": 38,
+        "name": "binary tree warm up",
+        "slug": "binary-tree-warm-up",
+        "verbose": "Get ready for the upcoming binary tree problems by watching us implement a node class.",
+        "timeEstimate": 5,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 87,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 39,
+        "name": "depth first values",
+        "slug": "depth-first-values",
+        "verbose": "Depth first traversal on a binary tree.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 13,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 40,
+        "name": "breadth first values",
+        "slug": "breadth-first-values",
+        "verbose": "Breadth first traversal on a binary tree.",
+        "timeEstimate": 35,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 27,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 41,
+        "name": "tree sum",
+        "slug": "tree-sum",
+        "verbose": "Sum the values of a binary tree.",
+        "timeEstimate": 40,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 99,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 42,
+        "name": "tree includes",
+        "slug": "tree-includes",
+        "verbose": "Check for a value within a binary tree.",
+        "timeEstimate": 40,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 101,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 43,
+        "name": "tree min value",
+        "slug": "tree-min-value",
+        "verbose": "Find the smallest value in a binary tree.",
+        "timeEstimate": 45,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 10,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 44,
+        "name": "max root to leaf path sum",
+        "slug": "max-root-to-leaf-path-sum",
+        "verbose": "Find the largest sum of a path in a binary tree.",
+        "timeEstimate": 55,
+        "premium": false,
+        "tags": [
+            "binary tree",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 15,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 45,
+        "name": "tree path finder",
+        "slug": "tree-path-finder",
+        "verbose": "Find the path to a target within a binary tree.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 47,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 46,
+        "name": "tree value count",
+        "slug": "tree-value-count",
+        "verbose": "Count the occurrences of a value in a binary tree.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 97,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 47,
+        "name": "how high",
+        "slug": "how-high",
+        "verbose": "Calculate the height of a binary tree.",
+        "timeEstimate": 35,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 8,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 48,
+        "name": "bottom right value",
+        "slug": "bottom-right-value",
+        "verbose": "Find the bottom right value in a binary tree.",
+        "timeEstimate": 35,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 66,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 49,
+        "name": "all tree paths",
+        "slug": "all-tree-paths",
+        "verbose": "Return all root to leaf paths in a binary tree.",
+        "timeEstimate": 70,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 20,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 50,
+        "name": "tree levels",
+        "slug": "tree-levels",
+        "verbose": "Transform a tree into an array of its levels.",
+        "timeEstimate": 55,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 7,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 51,
+        "name": "level averages",
+        "slug": "level-averages",
+        "verbose": "Find the average across each level of a binary tree.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 85,
+        "module": "3. Binary Tree",
+        "type": "challenge",
+        "number": 52,
+        "name": "leaf list",
+        "slug": "leaf-list",
+        "verbose": "Find the leaves of a binary tree.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 133,
+        "module": "3. Binary Tree",
+        "type": "quiz",
+        "number": 53,
+        "name": "binary tree quiz",
+        "slug": "binary-tree-quiz",
+        "verbose": "Check your binary tree knowledge.",
+        "timeEstimate": 10,
+        "premium": true,
+        "tags": [
+            "binary tree",
+            "quiz"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 178,
+        "module": "3. Binary Tree",
+        "type": "lecture",
+        "number": 54,
+        "name": "binary tree wrap up",
+        "slug": "binary-tree-wrap-up",
+        "verbose": "",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "binary tree",
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 186,
+        "module": "4. Graph",
+        "type": "lecture",
+        "number": 55,
+        "name": "graph welcome",
+        "slug": "graph-welcome",
+        "verbose": "Welcome to the graph module.",
+        "timeEstimate": 1,
+        "premium": false,
+        "tags": [
+            "graph",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 175,
+        "module": "4. Graph",
+        "type": "lecture",
+        "number": 56,
+        "name": "graph intro",
+        "slug": "graph-intro",
+        "verbose": "Let's learn about graphs!",
+        "timeEstimate": 15,
+        "premium": false,
+        "tags": [
+            "graph",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 184,
+        "module": "4. Graph",
+        "type": "lecture",
+        "number": 57,
+        "name": "graph warm up",
+        "slug": "graph-warm-up",
+        "verbose": "Get ready for the upcoming graph problems by watching us implement basic depth-first and breadth-first traversals.",
+        "timeEstimate": 15,
+        "premium": false,
+        "tags": [
+            "graph",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 98,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 58,
+        "name": "has path",
+        "slug": "has-path",
+        "verbose": "Check if two nodes of a graph are connected with a path.",
+        "timeEstimate": 50,
+        "premium": false,
+        "tags": [
+            "graph",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 78,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 59,
+        "name": "undirected path",
+        "slug": "undirected-path",
+        "verbose": "Check if a undirected graph contains a path that connects two nodes.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "graph",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 68,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 60,
+        "name": "connected components count",
+        "slug": "connected-components-count",
+        "verbose": "Count the components of a graph.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "graph",
+            "free"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 73,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 61,
+        "name": "largest component",
+        "slug": "largest-component",
+        "verbose": "Find the size of the largest component of a graph.",
+        "timeEstimate": 50,
+        "premium": false,
+        "tags": [
+            "graph",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 266,
+        "module": "4. Graph",
+        "type": "lecture",
+        "number": 62,
+        "name": "slow and steady",
+        "slug": "slow-and-steady",
+        "verbose": "Wins the race.",
+        "timeEstimate": 2,
+        "premium": false,
+        "tags": [
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 55,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 63,
+        "name": "shortest path",
+        "slug": "shortest-path",
+        "verbose": "Find the length of the shortest path between two nodes of a graph.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "graph",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 16,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 64,
+        "name": "island count",
+        "slug": "island-count",
+        "verbose": "Count the number of islands on a grid",
+        "timeEstimate": 50,
+        "premium": false,
+        "tags": [
+            "graph",
+            "free"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 77,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 65,
+        "name": "minimum island",
+        "slug": "minimum-island",
+        "verbose": "Find the minimum island size of a grid.",
+        "timeEstimate": 50,
+        "premium": false,
+        "tags": [
+            "graph",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 86,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 66,
+        "name": "closest carrot",
+        "slug": "closest-carrot",
+        "verbose": "Find the shortest path to a carrot in a grid.",
+        "timeEstimate": 50,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 80,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 67,
+        "name": "longest path",
+        "slug": "longest-path",
+        "verbose": "Find the longest path in a DAG.",
+        "timeEstimate": 50,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 23,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 68,
+        "name": "semesters required",
+        "slug": "semesters-required",
+        "verbose": "Find the minimum semesters required to take all courses.",
+        "timeEstimate": 75,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 62,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 69,
+        "name": "best bridge",
+        "slug": "best-bridge",
+        "verbose": "Find the shortest bridge possible to connect two islands.",
+        "timeEstimate": 75,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": true,
+        "favorite": true
+    },
+    {
+        "id": 72,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 70,
+        "name": "has cycle",
+        "slug": "has-cycle",
+        "verbose": "Check if a directed graph contains a cycle.",
+        "timeEstimate": 55,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 41,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 71,
+        "name": "prereqs possible",
+        "slug": "prereqs-possible",
+        "verbose": "Check if it is possible to take all courses.",
+        "timeEstimate": 45,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 199,
+        "module": "4. Graph",
+        "type": "challenge",
+        "number": 72,
+        "name": "knight attack",
+        "slug": "knight-attack",
+        "verbose": "Find the minimum number of moves a knight can take to attack a pawn.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 135,
+        "module": "4. Graph",
+        "type": "quiz",
+        "number": 73,
+        "name": "graph quiz",
+        "slug": "graph-quiz",
+        "verbose": "Check your graph knowledge.",
+        "timeEstimate": 10,
+        "premium": true,
+        "tags": [
+            "graph",
+            "quiz"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 183,
+        "module": "4. Graph",
+        "type": "lecture",
+        "number": 74,
+        "name": "graph wrap up",
+        "slug": "graph-wrap-up",
+        "verbose": "",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "graph",
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 188,
+        "module": "5. Dynamic Programming",
+        "type": "lecture",
+        "number": 75,
+        "name": "dynamic programming welcome",
+        "slug": "dynamic-programming-welcome",
+        "verbose": "Welcome to the dynamic programming module.",
+        "timeEstimate": 1,
+        "premium": false,
+        "tags": [
+            "dynamic programming",
+            "lecture",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 21,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 76,
+        "name": "fib",
+        "slug": "fib",
+        "verbose": "Calculate the n-th number of the sequence. Leonardo Fibonacci's claim to fame.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "recursion",
+            "dynamic programming",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 14,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 77,
+        "name": "tribonacci",
+        "slug": "tribonacci",
+        "verbose": "Like Fibonacci, but with one more bonacci.",
+        "timeEstimate": 30,
+        "premium": false,
+        "tags": [
+            "recursion",
+            "dynamic programming",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 22,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 78,
+        "name": "sum possible",
+        "slug": "sum-possible",
+        "verbose": "Check if it is possible to form a sum using numbers.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "dynamic programming",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 26,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 79,
+        "name": "min change",
+        "slug": "min-change",
+        "verbose": "Find the minimum number of coins required to make change.",
+        "timeEstimate": 70,
+        "premium": false,
+        "tags": [
+            "dynamic programming",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 24,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 80,
+        "name": "count paths",
+        "slug": "count-paths",
+        "verbose": "Count the number of ways to travel through a grid.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "dynamic programming",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 18,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 81,
+        "name": "max path sum",
+        "slug": "max-path-sum",
+        "verbose": "Find the max sum of a path through a grid.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "dynamic programming",
+            "free"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 29,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 82,
+        "name": "non-adjacent sum",
+        "slug": "non-adjacent-sum",
+        "verbose": "Find the maximum sum of non-adjacent elements of an array.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 25,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 83,
+        "name": "summing squares",
+        "slug": "summing-squares",
+        "verbose": "Find the minimum number of squares that add to a target number.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 28,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 84,
+        "name": "counting change",
+        "slug": "counting-change",
+        "verbose": "Count the number of different ways to make change using coins.",
+        "timeEstimate": 60,
+        "premium": false,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 31,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 85,
+        "name": "array stepper",
+        "slug": "array-stepper",
+        "verbose": "Check if it is possible to step through an array from beginning to end.",
+        "timeEstimate": 50,
+        "premium": false,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 35,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 86,
+        "name": "max palin subsequence",
+        "slug": "max-palin-subsequence",
+        "verbose": "Find the length of the longest palindromic subsequence in a string.",
+        "timeEstimate": 70,
+        "premium": false,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 44,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 87,
+        "name": "overlap subsequence",
+        "slug": "overlap-subsequence",
+        "verbose": "Find the length of the longest overlapping subsequence of two strings.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 40,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 88,
+        "name": "can concat",
+        "slug": "can-concat",
+        "verbose": "Check if it is possible to concatenate words into a string.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 34,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 89,
+        "name": "quickest concat",
+        "slug": "quickest-concat",
+        "verbose": "Find the minimum words required to build a string.",
+        "timeEstimate": 75,
+        "premium": true,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 200,
+        "module": "5. Dynamic Programming",
+        "type": "challenge",
+        "number": 90,
+        "name": "knightly number",
+        "slug": "knightly-number",
+        "verbose": "Find the number of different ways a knight can move to a position on a chess board.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 136,
+        "module": "5. Dynamic Programming",
+        "type": "quiz",
+        "number": 91,
+        "name": "dynamic programming quiz ",
+        "slug": "dynamic-programming-quiz",
+        "verbose": "Check your dynamic programming knowledge.",
+        "timeEstimate": 10,
+        "premium": true,
+        "tags": [
+            "dynamic programming",
+            "quiz"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 168,
+        "module": "5. Dynamic Programming",
+        "type": "lecture",
+        "number": 92,
+        "name": "dynamic programming wrap up",
+        "slug": "dynamic-programming-wrap-up",
+        "verbose": "",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "dynamic programming",
+            "lecture"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 181,
+        "module": "6. Stack",
+        "type": "lecture",
+        "number": 93,
+        "name": "stack welcome",
+        "slug": "stack-welcome",
+        "verbose": "Welcome to the stack module.",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "recursion",
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 32,
+        "module": "6. Stack",
+        "type": "challenge",
+        "number": 94,
+        "name": "paired parentheses",
+        "slug": "paired-parentheses",
+        "verbose": "Check if a string containing parentheses is valid.",
+        "timeEstimate": 35,
+        "premium": true,
+        "tags": [
+            "stack"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 52,
+        "module": "6. Stack",
+        "type": "challenge",
+        "number": 95,
+        "name": "befitting brackets",
+        "slug": "befitting-brackets",
+        "verbose": "Check if a string containing various brackets is valid.",
+        "timeEstimate": 45,
+        "premium": true,
+        "tags": [
+            "stack"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 70,
+        "module": "6. Stack",
+        "type": "challenge",
+        "number": 96,
+        "name": "decompress braces",
+        "slug": "decompress-braces",
+        "verbose": "Decompress a string with nested braces.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "stack"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 51,
+        "module": "6. Stack",
+        "type": "challenge",
+        "number": 97,
+        "name": "nesting score",
+        "slug": "nesting-score",
+        "verbose": "Calculate the score of a nested bracket expression.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "stack"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 173,
+        "module": "6. Stack",
+        "type": "lecture",
+        "number": 98,
+        "name": "stack wrap up",
+        "slug": "stack-wrap-up",
+        "verbose": "",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "recursion",
+            "lecture"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 177,
+        "module": "7. Exhaustive Recursion",
+        "type": "lecture",
+        "number": 99,
+        "name": "exhaustive recursion welcome",
+        "slug": "exhaustive-recursion-welcome",
+        "verbose": "Welcome to the exhaustive recursion module.",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "recursion",
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 46,
+        "module": "7. Exhaustive Recursion",
+        "type": "challenge",
+        "number": 100,
+        "name": "subsets",
+        "slug": "subsets",
+        "verbose": "Given a set, calculate all possible subsets. That's the power set for you math heads.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "recursion"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 56,
+        "module": "7. Exhaustive Recursion",
+        "type": "challenge",
+        "number": 101,
+        "name": "permutations",
+        "slug": "permutations",
+        "verbose": "Given a set, calculate all possible permutations.",
+        "timeEstimate": 70,
+        "premium": true,
+        "tags": [
+            "recursion"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 267,
+        "module": "7. Exhaustive Recursion",
+        "type": "lecture",
+        "number": 102,
+        "name": "break time",
+        "slug": "break-time",
+        "verbose": "Time for a chat.",
+        "timeEstimate": 2,
+        "premium": true,
+        "tags": [
+            "lecture"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 54,
+        "module": "7. Exhaustive Recursion",
+        "type": "challenge",
+        "number": 103,
+        "name": "create combinations",
+        "slug": "create-combinations",
+        "verbose": "Given a set of items, create combinations of a given size.",
+        "timeEstimate": 75,
+        "premium": true,
+        "tags": [
+            "recursion"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 45,
+        "module": "7. Exhaustive Recursion",
+        "type": "challenge",
+        "number": 104,
+        "name": "parenthetical possibilities",
+        "slug": "parenthetical-possibilities",
+        "verbose": "Expand the parentheses of a string.",
+        "timeEstimate": 75,
+        "premium": true,
+        "tags": [
+            "recursion"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 53,
+        "module": "7. Exhaustive Recursion",
+        "type": "challenge",
+        "number": 105,
+        "name": "substitute synonyms",
+        "slug": "substitute-synonyms",
+        "verbose": "Generate all sentences formed by substituting words.",
+        "timeEstimate": 55,
+        "premium": true,
+        "tags": [
+            "recursion"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 187,
+        "module": "7. Exhaustive Recursion",
+        "type": "lecture",
+        "number": 106,
+        "name": "exhaustive recursion wrap-up",
+        "slug": "exhaustive-recursion-wrap-up",
+        "verbose": "",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "recursion",
+            "lecture"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 182,
+        "module": "8. Mixed Recall",
+        "type": "lecture",
+        "number": 107,
+        "name": "mixed recall welcome",
+        "slug": "mixed-recall-welcome",
+        "verbose": "More problems. Mixed Up.",
+        "timeEstimate": 1,
+        "premium": true,
+        "tags": [
+            "lecture"
+        ],
+        "complete": true,
+        "favorite": false
+    },
+    {
+        "id": 42,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 108,
+        "name": "linked palindrome",
+        "slug": "linked-palindrome",
+        "verbose": "Check if a linked list is a palindrome.",
+        "timeEstimate": 20,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 50,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 109,
+        "name": "middle value",
+        "slug": "middle-value",
+        "verbose": "Get the value of the middle node in a linked list.",
+        "timeEstimate": 20,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 48,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 110,
+        "name": "linked list cycle",
+        "slug": "linked-list-cycle",
+        "verbose": "Check if a linked list contains a cycle.",
+        "timeEstimate": 45,
+        "premium": true,
+        "tags": [
+            "linked list"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 43,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 111,
+        "name": "lowest common ancestor",
+        "slug": "lowest-common-ancestor",
+        "verbose": "Find the lowest common ancestor of two nodes in a binary tree",
+        "timeEstimate": 50,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 95,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 112,
+        "name": "flip tree",
+        "slug": "flip-tree",
+        "verbose": "Flip a binary tree.",
+        "timeEstimate": 25,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 75,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 113,
+        "name": "lefty nodes",
+        "slug": "lefty-nodes",
+        "verbose": "Return the left-most nodes on every level of a binary tree.",
+        "timeEstimate": 30,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 57,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 114,
+        "name": "can color",
+        "slug": "can-color",
+        "verbose": "Check if nodes of a graph can be colored in an alternating pattern.",
+        "timeEstimate": 50,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 92,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 115,
+        "name": "tolerant teams",
+        "slug": "tolerant-teams",
+        "verbose": "Check if two teams can be formed without rivals being on the same team.",
+        "timeEstimate": 45,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 74,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 116,
+        "name": "rare routing",
+        "slug": "rare-routing",
+        "verbose": "Verify that there exists exactly one unique route between any two cities.",
+        "timeEstimate": 70,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 59,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 117,
+        "name": "max increasing subseq",
+        "slug": "max-increasing-subseq",
+        "verbose": "Find the length of the longest increasing subsequence of numbers.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 83,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 118,
+        "name": "positioning plants",
+        "slug": "positioning-plants",
+        "verbose": "Calculate the minimum cost of planting flowers of different prices.",
+        "timeEstimate": 50,
+        "premium": true,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 58,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 119,
+        "name": "breaking boundaries",
+        "slug": "breaking-boundaries",
+        "verbose": "Count the numbers of ways possible to move out of bounds in a grid.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "dynamic programming"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 93,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 120,
+        "name": "merge sort",
+        "slug": "merge-sort",
+        "verbose": "Implement the classic merge sort algorithm.",
+        "timeEstimate": 70,
+        "premium": true,
+        "tags": [
+            "sort"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 69,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 121,
+        "name": "combine intervals",
+        "slug": "combine-intervals",
+        "verbose": "Combine overlapping intervals.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "sort"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 60,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 122,
+        "name": "binary search",
+        "slug": "binary-search",
+        "verbose": "Implement classic binary search on a sorted input.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "binary search"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 82,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 123,
+        "name": "binary search tree includes",
+        "slug": "binary-search-tree-includes",
+        "verbose": "Check for a target within a binary search tree.",
+        "timeEstimate": 40,
+        "premium": true,
+        "tags": [
+            "binary search",
+            "binary tree"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 96,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 124,
+        "name": "is binary search tree",
+        "slug": "is-binary-search-tree",
+        "verbose": "Verify whether or not a binary tree is a binary search tree.",
+        "timeEstimate": 45,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 94,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 125,
+        "name": "post order",
+        "slug": "post-order",
+        "verbose": "Return the post-ordered values of a binary tree.",
+        "timeEstimate": 30,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 84,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 126,
+        "name": "build tree in post",
+        "slug": "build-tree-in-post",
+        "verbose": "Build a binary tree from its in-order and post-order values.",
+        "timeEstimate": 75,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 63,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 127,
+        "name": "build tree in pre",
+        "slug": "build-tree-in-pre",
+        "verbose": "Build a binary tree from its in-order and pre-order values.",
+        "timeEstimate": 75,
+        "premium": true,
+        "tags": [
+            "binary tree"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 65,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 128,
+        "name": "lexical order",
+        "slug": "lexical-order",
+        "verbose": "Given an arbitrary alphabet, check if two words are lexically ordered.",
+        "timeEstimate": 50,
+        "premium": true,
+        "tags": [
+            "string"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 81,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 129,
+        "name": "detect dictionary",
+        "slug": "detect-dictionary",
+        "verbose": "Given a dictionary and alphabet, check if the dictionary is correctly ordered.",
+        "timeEstimate": 45,
+        "premium": true,
+        "tags": [
+            "string"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 61,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 130,
+        "name": "topological order",
+        "slug": "topological-order",
+        "verbose": "Return the topological order of a directed-acyclic graph.",
+        "timeEstimate": 70,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 88,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 131,
+        "name": "safe cracking",
+        "slug": "safe-cracking",
+        "verbose": "Use a list of hints to determine the combination to unlock a safe.",
+        "timeEstimate": 60,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 79,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 132,
+        "name": "string search",
+        "slug": "string-search",
+        "verbose": "Check if a string is found within a grid of letters.",
+        "timeEstimate": 45,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 64,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 133,
+        "name": "token replace",
+        "slug": "token-replace",
+        "verbose": "Replace tokens within a string.",
+        "timeEstimate": 50,
+        "premium": true,
+        "tags": [
+            "string"
+        ],
+        "complete": false,
+        "favorite": false
+    },
+    {
+        "id": 90,
+        "module": "8. Mixed Recall",
+        "type": "challenge",
+        "number": 134,
+        "name": "token transform",
+        "slug": "token-transform",
+        "verbose": "Recursively transform tokens within a string.",
+        "timeEstimate": 50,
+        "premium": true,
+        "tags": [
+            "graph"
+        ],
+        "complete": false,
+        "favorite": false
+    }
+]

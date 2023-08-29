@@ -35,3 +35,7 @@ Can use nimbletext to help you with qik and save even more time
 - Use NimbleText to create all qik scripts.
 - Run scripts one by one, effectively creating all folders.
 - Run through the course first getting all JavaScript content, then getting all Python content.
+
+
+jTkuHfOQH3L3HHmwPlJF  
+jTkuHfOQH3L3HHmwPlJF  
