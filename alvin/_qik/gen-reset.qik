@@ -1,8 +1,0 @@
-/* ******************************************************************************************
-Generates the alvin problem and solution files
-****************************************************************************************** */
-
-@Number => "";           // like 001
-@Title => "";
-
-@FolderName => @Number + "-" + replace(lowerCase(removePunctuation(@Title)), " ", "-");
