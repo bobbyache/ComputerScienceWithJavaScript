@@ -21,6 +21,7 @@ describe("is prime", () => {
             expect(isPrime(2017)).toEqual(true);
             expect(isPrime(2048)).toEqual(false);
             expect(isPrime(713)).toEqual(false);
+            expect(isPrime(1)).toEqual(false);
         })
     });
 });
