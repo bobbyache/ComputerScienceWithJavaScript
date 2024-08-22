@@ -4,7 +4,6 @@
 Here is some information on how to do a [Jasmine and Node.js Setup](https://jasmine.github.io/setup/nodejs.html)
 
 ### To Do
-- [ ] Add generated files to `.gitignore`.
 - [ ] [Read and understand](http://karma-runner.github.io/6.3/intro/how-it-works.html) how Karma might aid in debugging your tests (without Angular).
   - [ ] Also see [Running and Debugging Tests in Karma](https://www.webagesolutions.com/blog/running-and-debugging-tests-in-karma)
 
